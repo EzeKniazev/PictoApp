@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQEEP.CategoryElements.DeportesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Opciones" 
+                   HorizontalTextAlignment="Start" 
+                   TextColor="White" 
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+                </Frame>
+<!---->
+                <ScrollView>
+                    <StackLayout>
+                        <Grid Margin="30,20"
+              RowSpacing="20">
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="0"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Natación"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="1"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Fútbol"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20"
+              RowSpacing="20">
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="0"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Atletismo"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="1"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Baloncesto"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20"
+              RowSpacing="20">
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="0"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Ciclismo"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                            <Button 
+                Grid.Row="0"
+                Grid.Column="1"
+            CornerRadius="15"
+            BackgroundColor="#97d5e0"
+            Text="Tenis"
+            TextColor="Black"
+            WidthRequest="200" 
+            HeightRequest="200"
+            HorizontalOptions="Start">
+                            </Button>
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
