@@ -16,35 +16,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="AMANECER" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="AMANECER" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="T2.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="DÍA" TextColor="Black" HorizontalOptions="Center" 
-                                       VerticalOptions="Center">
-                                </Label>
-                            </Grid>
-                        </Grid>
-<!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-                            <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="FIN DE SEMANA" TextColor="Black" HorizontalOptions="Center"
-                                       VerticalOptions="Center">
-                                </Label>
-<!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="HOY" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="DÍA" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -52,17 +34,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="MAÑANA" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="FIN DE SEMANA" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="NOCHE" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="HOY" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -70,10 +52,28 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="TARDE" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="MAÑANA" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="NOCHE" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="TARDE" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->

@@ -19,14 +19,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="BEBER AGUA" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="BEBER AGUA" HorizontalOptions="Center"
                                        VerticalOptions="End">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A2.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="COMER" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="COMER" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -37,14 +37,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A3.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="DORMIR" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="DORMIR" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A4.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="ELEGIR" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="ELEGIR" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -55,14 +55,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A5.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="ESCUCHAR MÚSICA" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="ESCUCHAR MÚSICA" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A6.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="HABITACIÓN" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="HABITACIÓN" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -73,14 +73,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A7.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="HACER CACA" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="HACER CACA" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A8.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="HACER PIS" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="HACER PIS" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -91,14 +91,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A9.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="MIRAR" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="MIRAR" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A10.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="MIRAR TELE" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="MIRAR TELE" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -109,14 +109,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A11.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="ORDENAR" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="ORDENAR" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="A12.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="PINTAR" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="PINTAR" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -127,7 +127,7 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="A13.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="SENTARME" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="SENTARME" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->

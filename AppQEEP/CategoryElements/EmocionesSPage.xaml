@@ -19,14 +19,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="FELIZ" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="FELIZ" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="E2.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="TRISTE" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="TRISTE" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -37,14 +37,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E3.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="ESTA BIEN" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="ESTA BIEN" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="E4.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="ESTA MAL" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="ESTA MAL" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -55,14 +55,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E5.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="QUIERO" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="QUIERO" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="E6.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="NO QUIERO" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="NO QUIERO" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -73,14 +73,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E7.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="YO" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="YO" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="E8.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="DOLOR" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="DOLOR" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -91,14 +91,14 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E9.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="TENGO CALOR" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="TENGO CALOR" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
                                 <!---->
                                 <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="E10.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="TENGO FRIO" TextColor="Transparent" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="TENGO FRIO" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -109,7 +109,7 @@
                                 <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="E11.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="TENGO" TextColor="Transparent" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="TENGO" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->

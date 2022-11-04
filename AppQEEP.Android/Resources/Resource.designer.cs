@@ -16748,16 +16748,37 @@ namespace AppQEEP.Droid
 			public const int preference_list_divider_material = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int test_custom_background = 2131165356;
+			public const int T1 = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int tooltip_frame_dark = 2131165357;
+			public const int T2 = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int tooltip_frame_light = 2131165358;
+			public const int T3 = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int xamarin_logo = 2131165359;
+			public const int T4 = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int T5 = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int T6 = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int T7 = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int test_custom_background = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int tooltip_frame_dark = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int tooltip_frame_light = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int xamarin_logo = 2131165366;
 			
 			static Drawable()
 			{
