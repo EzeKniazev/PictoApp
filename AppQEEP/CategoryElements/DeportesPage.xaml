@@ -16,35 +16,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="D1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="NATACIÓN" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="NATACIÓN" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="D2.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="FÚTBOL" TextColor="Black" HorizontalOptions="Center" 
-                                       VerticalOptions="Center">
-                                </Label>
-                            </Grid>
-                        </Grid>
-<!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-                            <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="ATLETISMO" TextColor="Black" HorizontalOptions="Center"
-                                       VerticalOptions="Center">
-                                </Label>
-<!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="BALONCESTO" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="FÚTBOL" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -52,22 +34,37 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="D3.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="CICLISMO" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="TENIS" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="D4.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="TENIS" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="BALONCESTO" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
                         </Grid>
 <!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="D5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="CICLISMO" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="White" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                            </Grid>
+                        </Grid>
+<!----> <!--EL ULTIMO IMAGEBUTTON ES NECESARIO PARA QUE SE COLOQUE BIEN EL TEXTO EN EL OTRO BUTTON-->
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

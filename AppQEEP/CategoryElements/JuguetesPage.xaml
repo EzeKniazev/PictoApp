@@ -16,35 +16,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="AUTITO" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="AUTITO" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J2.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="BLOQUES" TextColor="Black" HorizontalOptions="Center" 
-                                       VerticalOptions="Center">
-                                </Label>
-                            </Grid>
-                        </Grid>
-<!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-                            <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="CONSOLA DE VIDEOJUEGOS" TextColor="Black" HorizontalOptions="Center"
-                                       VerticalOptions="Center">
-                                </Label>
-<!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="CRAYONES" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="BLOQUES" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -52,35 +34,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J3.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="CUENTO" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="CONSOLA DE VIDEOJUEGOS" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J4.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="JUEGOS DE MESA" TextColor="Black" HorizontalOptions="Center" 
-                                       VerticalOptions="Center">
-                                </Label>
-                            </Grid>
-                        </Grid>
-<!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-                            <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="JUGUETES" TextColor="Black" HorizontalOptions="Center"
-                                       VerticalOptions="Center">
-                                </Label>
-<!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="LAPICES" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="CRAYONES" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -88,35 +52,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J5.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="LEGOS" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="CUENTO" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J6.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="MUÑECA" TextColor="Black" HorizontalOptions="Center" 
-                                       VerticalOptions="Center">
-                                </Label>
-                            </Grid>
-                        </Grid>
-<!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-                            <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="PELOTA" TextColor="Black" HorizontalOptions="Center"
-                                       VerticalOptions="Center">
-                                </Label>
-<!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="PINTURAS" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="JUEGOS DE MESA" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -124,17 +70,17 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J7.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="PLASTILINA" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="JUGUETES" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
-                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J8.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="1" Text="ROMPECABEZAS" TextColor="Black" HorizontalOptions="Center" 
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="LAPICES" HorizontalOptions="Center" 
                                        VerticalOptions="Center">
                                 </Label>
                             </Grid>
@@ -142,10 +88,64 @@
 <!---->
                         <Grid Margin="30,20" RowSpacing="20">
                             <Grid>
-                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J9.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                                 </ImageButton>
-                                <Label Grid.Row="0" Grid.Column="0" Text="TABLET" TextColor="Black" HorizontalOptions="Center"
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="LEGOS" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J10.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="MUÑECA" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J11.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="PELOTA" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J12.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="PINTURAS" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J13.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="PLASTILINA" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source="J14.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" x:Name="ROMPECABEZAS" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source="J15.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" x:Name="TABLET" HorizontalOptions="Center"
                                        VerticalOptions="Center">
                                 </Label>
 <!---->
