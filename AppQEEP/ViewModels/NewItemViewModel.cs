@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace AppQEEP.ViewModels
+namespace AppQEEP.ViewModels //ESTE ELEMENTO DE CLASE NO TIENE RELEVANCIA PARA EL PROYECTO - SE PODRA ELIMINAR MAS ADELANTE.
 {
     public class NewItemViewModel : BaseViewModel
     {

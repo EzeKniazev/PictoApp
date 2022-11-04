@@ -6,93 +6,68 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Opciones" 
-                   HorizontalTextAlignment="Start" 
-                   TextColor="White" 
-                   FontSize="22"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
                 </Frame>
-<!---->
+<!----> <!--SE ENCUENTRA UN ERROR, QUE EL TEXTO DE LA PRIMERA COLUMNA SE COLOCA EN EL CENTRO DE LA PANTALLA NOMAS--> <!--SE ARREGLO EL ERROR :D-->
                 <ScrollView>
                     <StackLayout>
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Natación"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Fútbol"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="NATACIÓN" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="FÚTBOL" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Atletismo"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Baloncesto"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="ATLETISMO" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="BALONCESTO" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Ciclismo"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Tenis"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="CICLISMO" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="TENIS" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
+<!---->
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

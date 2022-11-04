@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AppQEEP.Models
+namespace AppQEEP.Models //ESTE ELEMENTO DE CLASE NO TIENE RELEVANCIA PARA EL PROYECTO - SE PODRA ELIMINAR MAS ADELANTE.
 {
     public class Item
     {

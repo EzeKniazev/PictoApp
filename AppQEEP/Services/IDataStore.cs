@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AppQEEP.Services
+namespace AppQEEP.Services //ESTE ELEMENTO DE CLASE NO TIENE RELEVANCIA PARA EL PROYECTO - SE PODRA ELIMINAR MAS ADELANTE.
 {
     public interface IDataStore<T>
     {

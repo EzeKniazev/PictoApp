@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace AppQEEP.ViewModels
+namespace AppQEEP.ViewModels //ELEMENTO CLASE DE LOGINPAGE
 {
     public class LoginViewModel : BaseViewModel
     {
@@ -17,7 +17,7 @@ namespace AppQEEP.ViewModels
 
         private async void OnLoginClicked(object obj)
         {
-            // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
+            //El prefijo `//` cambia a una pila de navegación diferente en lugar de empujar a la activa
             await Shell.Current.GoToAsync($"//{nameof(CategoriesPage)}");
         }
     }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AppQEEP.Services
+namespace AppQEEP.Services //ESTE ELEMENTO DE CLASE NO TIENE RELEVANCIA PARA EL PROYECTO - SE PODRA ELIMINAR MAS ADELANTE.
 {
     public class MockDataStore : IDataStore<Item>
     {
@@ -14,12 +14,12 @@ namespace AppQEEP.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Primer elemento", Description="Esta es una descripción del artículo." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Segundo artículo", Description="Esta es una descripción del artículo." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Tercer artículo", Description="Esta es una descripción del artículo." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Cuarto artículo", Description="Esta es una descripción del artículo." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Quinto artículo", Description="Esta es una descripción del artículo." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sexto artículo", Description="Esta es una descripción del artículo." }
             };
         }
 

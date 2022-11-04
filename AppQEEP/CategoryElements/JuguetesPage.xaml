@@ -6,212 +6,155 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Opciones" 
-                   HorizontalTextAlignment="Start" 
-                   TextColor="White" 
-                   FontSize="22"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
                 </Frame>
-<!---->
+<!----> <!--SE ENCUENTRA UN ERROR, QUE EL TEXTO DE LA PRIMERA COLUMNA SE COLOCA EN EL CENTRO DE LA PANTALLA NOMAS--> <!--SE ARREGLO EL ERROR :D-->
                 <ScrollView>
                     <StackLayout>
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Autito"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Bloques"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="AUTITO" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="BLOQUES" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Consola de Videojuegos"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Crayones"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="CONSOLA DE VIDEOJUEGOS" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="CRAYONES" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Cuento"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Juego de Mesa"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="CUENTO" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="JUEGOS DE MESA" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Juguetes"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Lapices"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="JUGUETES" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="LAPICES" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Legos"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Muñeca"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="LEGOS" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="MUÑECA" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Pelota"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Pintura"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="PELOTA" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="PINTURAS" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Plastilina"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Rompecabeza"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="PLASTILINA" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="ROMPECABEZAS" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Tablet"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="TABLET" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="White" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                            </Grid>
                         </Grid>
+<!----> <!--EL ULTIMO IMAGEBUTTON ES NECESARIO PARA QUE SE COLOQUE BIEN EL TEXTO EN EL OTRO BUTTON-->
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

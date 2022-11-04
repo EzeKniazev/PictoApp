@@ -6,108 +6,83 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Opciones" 
-                   HorizontalTextAlignment="Start" 
-                   TextColor="White" 
-                   FontSize="22"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
                 </Frame>
-<!---->
+<!----> <!--SE ENCUENTRA UN ERROR, QUE EL TEXTO DE LA PRIMERA COLUMNA SE COLOCA EN EL CENTRO DE LA PANTALLA NOMAS--> <!--SE ARREGLO EL ERROR :D-->
                 <ScrollView>
                     <StackLayout>
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Amanecer"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Día"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="AMANECER" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="DÍA" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Fin de Semana"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Hoy"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="FIN DE SEMANA" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="HOY" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Mañana"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="1"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Noche"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="MAÑANA" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="1" Text="NOCHE" TextColor="Black" HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                                </Label>
+                            </Grid>
                         </Grid>
 <!---->
-                        <Grid Margin="30,20"
-              RowSpacing="20">
-                            <Button 
-                Grid.Row="0"
-                Grid.Column="0"
-            CornerRadius="15"
-            BackgroundColor="#97d5e0"
-            Text="Tarde"
-            TextColor="Black"
-            WidthRequest="200" 
-            HeightRequest="200"
-            HorizontalOptions="Start">
-                            </Button>
+                        <Grid Margin="30,20" RowSpacing="20">
+                            <Grid>
+                                <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                                <Label Grid.Row="0" Grid.Column="0" Text="TARDE" TextColor="Black" HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+<!---->
+                                <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="White" Source=""
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                            </Grid>
                         </Grid>
+<!----> <!--EL ULTIMO IMAGEBUTTON ES NECESARIO PARA QUE SE COLOQUE BIEN EL TEXTO EN EL OTRO BUTTON-->
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

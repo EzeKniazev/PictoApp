@@ -72,24 +72,24 @@
         FlyoutDisplayOptions="AsMultipleItems" creará un elemento flotante separado para cada elemento secundario
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-    <FlyoutItem Title="INICIO" Icon="icon_about.png">
+    <FlyoutItem Title="Inicio" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Browse" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="COMPLETAR" Icon="icon_about.png">
+    <FlyoutItem Title="Agregar Categoría" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="COMPLETAR" Icon="icon_about.png">
+    <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="COMPLETAR" Icon="icon_about.png">
+    <FlyoutItem Title="Backup" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
     </FlyoutItem>
 
     <!-- Cuando el control flotante esté visible, este será un elemento de menú al que puede vincular un comportamiento de clic.  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    <MenuItem Text="Salir" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
     </MenuItem>
 
     <!--
