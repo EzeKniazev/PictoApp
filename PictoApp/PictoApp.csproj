@@ -18,6 +18,9 @@
     <Compile Update="Views\ABMCats.xaml.cs">
       <DependentUpon>ABMCats.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\TextoAVoz.xaml.cs">
+      <DependentUpon>TextoAVoz.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +46,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\CategoriesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TextoAVoz.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

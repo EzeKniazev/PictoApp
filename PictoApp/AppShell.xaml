@@ -82,8 +82,8 @@
     <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
         <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate local:ABMPictos}" />
     </FlyoutItem>
-    <FlyoutItem Title="Backup" Icon="icon_about.png">
-        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
+    <FlyoutItem Title="Texto a Voz" Icon="icon_about.png">
+        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:TextoAVoz}" />
     </FlyoutItem>
 
     <!-- Cuando el control flotante esté visible, este será un elemento de menú al que puede vincular un comportamiento de clic.  -->
