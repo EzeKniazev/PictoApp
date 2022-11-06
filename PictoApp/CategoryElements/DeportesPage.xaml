@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PictoApp.CategoryElements.DeportesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Natacion" CornerRadius="15" BackgroundColor="#97d5e0" Source="D1.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Natacion_Clicked">
+                                </ImageButton>
+                              
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Futbol" CornerRadius="15" BackgroundColor="#97d5e0" Source="D2.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Futbol_Clicked">
+                                </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Tenis" CornerRadius="15" BackgroundColor="#97d5e0" Source="D3.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Tenis_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Basketball" CornerRadius="15" BackgroundColor="#97d5e0" Source="D4.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Basketball_Clicked">
+                                </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Ciclismo" CornerRadius="15" BackgroundColor="#97d5e0" Source="D5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Ciclismo_Clicked">
+                                </ImageButton>
+
+                        </Grid>
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

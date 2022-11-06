@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PictoApp.CategoryElements.EmocionesSPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Feliz" CornerRadius="15" BackgroundColor="#97d5e0" Source="E1.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Feliz_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Triste" CornerRadius="15" BackgroundColor="#97d5e0" Source="E2.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Triste_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Okay" CornerRadius="15" BackgroundColor="#97d5e0" Source="E3.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Okay_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Mal" CornerRadius="15" BackgroundColor="#97d5e0" Source="E4.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Mal_Clicked">
+                                </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Quiero" CornerRadius="15" BackgroundColor="#97d5e0" Source="E5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Quiero_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="NoQuiero" CornerRadius="15" BackgroundColor="#97d5e0" Source="E6.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="NoQuiero_Clicked">
+                                </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+                            
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Tengo" CornerRadius="15" BackgroundColor="#97d5e0" Source="E11.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Tengo_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Dolor" CornerRadius="15" BackgroundColor="#97d5e0" Source="E8.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Dolor_Clicked">
+                                </ImageButton>
+                            
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="TengoCalor" CornerRadius="15" BackgroundColor="#97d5e0" Source="E9.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="TengoCalor_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="TengoFrio" CornerRadius="15" BackgroundColor="#97d5e0" Source="E10.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="TengoFrio_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

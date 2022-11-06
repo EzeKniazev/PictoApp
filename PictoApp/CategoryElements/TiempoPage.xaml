@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PictoApp.CategoryElements.TiempoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Opciones" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+<!----> <!--SE ENCUENTRA UN ERROR, QUE EL TEXTO DE LA PRIMERA COLUMNA SE COLOCA EN EL CENTRO DE LA PANTALLA NOMAS--> <!--SE ARREGLO EL ERROR :D-->
+                <ScrollView>
+                    <StackLayout>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+                            
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Dia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                            
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Noche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+                          
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Hoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="FinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+
+                        </Grid>
+<!---->
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Amanecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Atardecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                </ImageButton>
+
+                        </Grid>
+<!---->
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
