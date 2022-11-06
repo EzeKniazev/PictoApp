@@ -10,48 +10,45 @@
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
-<!----> <!--SE ENCUENTRA UN ERROR, QUE EL TEXTO DE LA PRIMERA COLUMNA SE COLOCA EN EL CENTRO DE LA PANTALLA NOMAS--> <!--SE ARREGLO EL ERROR :D-->
+
                 <ScrollView>
                     <StackLayout>
-<!---->
+
                         <Grid Margin="30,20" RowSpacing="20">
-                            
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Dia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Dia_Clicked">
-                                </ImageButton>
-                            
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Noche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Noche_Clicked">
-                                </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDia_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnNoche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnNoche_Clicked">
+                            </ImageButton>
                           
                         </Grid>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Amanecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Amanecer_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnAmanecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAmanecer_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Atardecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Atardecer_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnAtardecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAtardecer_Clicked">
                             </ImageButton>
 
                         </Grid>
-                        
+
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Hoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Hoy_Clicked">
-                                </ImageButton>
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnHoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHoy_Clicked">
+                            </ImageButton>
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="FinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="FinDeSemana_Clicked">
-                                </ImageButton>
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFinDeSemana_Clicked">
+                            </ImageButton>
 
                         </Grid>
-<!---->
-                        
-<!---->
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

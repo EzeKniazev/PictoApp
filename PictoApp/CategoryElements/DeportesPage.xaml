@@ -16,32 +16,32 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Natacion" CornerRadius="15" BackgroundColor="#97d5e0" Source="D1.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Natacion_Clicked">
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnNatacion" CornerRadius="15" BackgroundColor="#97d5e0" Source="D1.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnNatacion_Clicked">
                                 </ImageButton>
                               
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Futbol" CornerRadius="15" BackgroundColor="#97d5e0" Source="D2.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Futbol_Clicked">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFutbol_Clicked">
                                 </ImageButton>
 
                         </Grid>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Tenis" CornerRadius="15" BackgroundColor="#97d5e0" Source="D3.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Tenis_Clicked">
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTenis" CornerRadius="15" BackgroundColor="#97d5e0" Source="D3.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTenis_Clicked">
                                 </ImageButton>
 
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Basketball" CornerRadius="15" BackgroundColor="#97d5e0" Source="D4.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Basketball_Clicked">
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnBasketball" CornerRadius="15" BackgroundColor="#97d5e0" Source="D4.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnBasketball_Clicked">
                                 </ImageButton>
 
                         </Grid>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Ciclismo" CornerRadius="15" BackgroundColor="#97d5e0" Source="D5.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Ciclismo_Clicked">
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCiclismo" CornerRadius="15" BackgroundColor="#97d5e0" Source="D5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCiclismo_Clicked">
                                 </ImageButton>
 
                         </Grid>

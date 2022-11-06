@@ -16,32 +16,32 @@ namespace PictoApp.CategoryElements
         {
             InitializeComponent();
         }
-        private async void Dia_Clicked(object sender, EventArgs e)
+        private async void BtnDia_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Es de día");
         } 
 
-        private async void Noche_Clicked(object sender, EventArgs e)
+        private async void BtnNoche_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Es de noche");
         }
 
-        private async void Amanecer_Clicked(object sender, EventArgs e)
+        private async void BtnAmanecer_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Amanecer");
         }
 
-        private async void Atardecer_Clicked(object sender, EventArgs e)
+        private async void BtnAtardecer_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Atardecer");
         }
 
-        private async void Hoy_Clicked(object sender, EventArgs e)
+        private async void BtnHoy_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Hoy");
         }
 
-        private async void FinDeSemana_Clicked(object sender, EventArgs e)
+        private async void BtnFinDeSemana_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Fin de semana");
         }

@@ -17,27 +17,27 @@ namespace PictoApp.CategoryElements
             InitializeComponent();
         }
 
-        private async void Natacion_Clicked(object sender, EventArgs e)
+        private async void BtnNatacion_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Natación");
         }
 
-        private async void Futbol_Clicked(object sender, EventArgs e)
+        private async void BtnFutbol_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Fútbol");
         }
 
-        private async void Tenis_Clicked(object sender, EventArgs e)
+        private async void BtnTenis_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Tenis");
         }
 
-        private async void Basketball_Clicked(object sender, EventArgs e)
+        private async void BtnBasketball_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Basketball");
         }
 
-        private async void Ciclismo_Clicked(object sender, EventArgs e)
+        private async void BtnCiclismo_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Ciclismo");
         }
