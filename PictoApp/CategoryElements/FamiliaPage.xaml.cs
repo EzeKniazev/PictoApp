@@ -92,14 +92,6 @@ namespace PictoApp.CategoryElements
         {
             await TextToSpeech.SpeakAsync("Tía");
         }
-        private async void BtnTios_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Tíos");
-        }
-        private async void BtnTias_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Tías");
-        }
         private async void BtnPrimo_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Primo");
