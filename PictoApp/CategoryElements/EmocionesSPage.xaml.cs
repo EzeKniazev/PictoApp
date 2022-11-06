@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,54 +17,54 @@ namespace PictoApp.CategoryElements
             InitializeComponent();
         }
 
-        private void Feliz_Clicked(object sender, EventArgs e)
+        private async void Feliz_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Estoy Feliz");
         }
 
-        private void Triste_Clicked(object sender, EventArgs e)
+        private async void Triste_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Estoy triste");
         }
 
-        private void Okay_Clicked(object sender, EventArgs e)
+        private async void Okay_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Okay");
         }
 
-        private void Mal_Clicked(object sender, EventArgs e)
+        private async void Mal_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Mal");
         }
 
-        private void Quiero_Clicked(object sender, EventArgs e)
+        private async void Quiero_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Quiero");
         }
 
-        private void NoQuiero_Clicked(object sender, EventArgs e)
+        private async void NoQuiero_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("No quiero");
         }
 
-        private void Tengo_Clicked(object sender, EventArgs e)
+        private async void Tengo_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Tengo");
         }
 
-        private void Dolor_Clicked(object sender, EventArgs e)
+        private async void Dolor_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Me duele");
         }
 
-        private void TengoCalor_Clicked(object sender, EventArgs e)
+        private async void TengoCalor_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Tengo Calor");
         }
 
-        private void TengoFrio_Clicked(object sender, EventArgs e)
+        private async void TengoFrio_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Tengo frio");
         }
     }
 }

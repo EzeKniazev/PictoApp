@@ -39,7 +39,7 @@ namespace PictoApp.CategoryElements
 
         private async void EscucharMusica_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero escuchar musica");
+            await TextToSpeech.SpeakAsync("Quiero escuchar música");
         }
 
         private async void HacerCaca_Clicked(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace PictoApp.CategoryElements
 
         private async void MirarTelevision_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero mirar television");
+            await TextToSpeech.SpeakAsync("Quiero mirar televisión");
         }
 
         private async void Ordenar_Clicked(object sender, EventArgs e)

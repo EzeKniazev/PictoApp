@@ -17,11 +17,11 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Autito" CornerRadius="15" BackgroundColor="#97d5e0" Source="J1.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Autito_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Bloques" CornerRadius="15" BackgroundColor="#97d5e0" Source="J2.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Bloques_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -29,12 +29,12 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="ConsolaDeVideojuegos" CornerRadius="15" BackgroundColor="#97d5e0" Source="J3.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="ConsolaDeVideojuegos_Clicked">
                                 </ImageButton>
 
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Crayones" CornerRadius="15" BackgroundColor="#97d5e0" Source="J4.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Crayones_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -42,11 +42,11 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Libro" CornerRadius="15" BackgroundColor="#97d5e0" Source="J5.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Libro_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="JuegosDeMesa"  CornerRadius="15" BackgroundColor="#97d5e0" Source="J6.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="JuegosDeMesa_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -54,23 +54,23 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Juguetes" CornerRadius="15" BackgroundColor="#97d5e0" Source="J7.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Juguetes_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Lapices" CornerRadius="15" BackgroundColor="#97d5e0" Source="J8.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Lapices_Clicked">
                                 </ImageButton>
 
                         </Grid>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Legos" CornerRadius="15" BackgroundColor="#97d5e0" Source="J9.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Construir" CornerRadius="15" BackgroundColor="#97d5e0" Source="J9.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Construir_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Muneca" CornerRadius="15" BackgroundColor="#97d5e0" Source="J10.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Muneca_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -78,11 +78,11 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Pelota" CornerRadius="15" BackgroundColor="#97d5e0" Source="J11.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Pelota_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Pinturas" CornerRadius="15" BackgroundColor="#97d5e0" Source="J12.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Pinturas_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -90,11 +90,11 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Plastina" CornerRadius="15" BackgroundColor="#97d5e0" Source="J13.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Plastina_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Puzzle" CornerRadius="15" BackgroundColor="#97d5e0" Source="J14.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Puzzle_Clicked">
                                 </ImageButton>
 
                         </Grid>
@@ -102,7 +102,7 @@
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Tablet" CornerRadius="15" BackgroundColor="#97d5e0" Source="J15.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Tablet_Clicked">
                                 </ImageButton>
 
                         </Grid>

@@ -17,38 +17,40 @@
                         <Grid Margin="30,20" RowSpacing="20">
                             
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Dia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Dia_Clicked">
                                 </ImageButton>
                             
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Noche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Noche_Clicked">
                                 </ImageButton>
                           
                         </Grid>
-<!---->
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Amanecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Amanecer_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Atardecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Atardecer_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
                         <Grid Margin="30,20" RowSpacing="20">
 
                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Hoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="Hoy_Clicked">
                                 </ImageButton>
 
                                 <ImageButton Grid.Row="0" Grid.Column="0" x:Name="FinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="FinDeSemana_Clicked">
                                 </ImageButton>
 
                         </Grid>
 <!---->
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="Amanecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T1.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="Atardecer" CornerRadius="15" BackgroundColor="#97d5e0" Source="T6.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
-                                </ImageButton>
-
-                        </Grid>
+                        
 <!---->
                     </StackLayout>
                 </ScrollView>

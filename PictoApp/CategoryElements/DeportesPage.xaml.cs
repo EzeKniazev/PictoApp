@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,29 +17,29 @@ namespace PictoApp.CategoryElements
             InitializeComponent();
         }
 
-        private void Natacion_Clicked(object sender, EventArgs e)
+        private async void Natacion_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Natación");
         }
 
-        private void Futbol_Clicked(object sender, EventArgs e)
+        private async void Futbol_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Fútbol");
         }
 
-        private void Tenis_Clicked(object sender, EventArgs e)
+        private async void Tenis_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Tenis");
         }
 
-        private void Basketball_Clicked(object sender, EventArgs e)
+        private async void Basketball_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Basketball");
         }
 
-        private void Ciclismo_Clicked(object sender, EventArgs e)
+        private async void Ciclismo_Clicked(object sender, EventArgs e)
         {
-
+            await TextToSpeech.SpeakAsync("Ciclismo");
         }
     }
 }
