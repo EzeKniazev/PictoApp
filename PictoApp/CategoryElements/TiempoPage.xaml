@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDia" CornerRadius="15" BackgroundColor="#97d5e0" Source="T5.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDia_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnNoche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnNoche" CornerRadius="15" BackgroundColor="#97d5e0" Source="T7.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnNoche_Clicked">
                             </ImageButton>
                           
@@ -40,14 +40,14 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnHoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnHoy" CornerRadius="15" BackgroundColor="#97d5e0" Source="T4.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHoy_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
+ <!--                          <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFinDeSemana" CornerRadius="15" BackgroundColor="#97d5e0" Source="T3.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFinDeSemana_Clicked">
                             </ImageButton>
-
+-->
                         </Grid>
                     </StackLayout>
                 </ScrollView>
