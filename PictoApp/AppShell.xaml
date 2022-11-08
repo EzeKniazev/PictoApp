@@ -72,7 +72,7 @@
         FlyoutDisplayOptions="AsMultipleItems" creará un elemento flotante separado para cada elemento secundario
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-    <FlyoutItem Title="Inicio" Icon="icon_about.png">
+    <FlyoutItem Title="INICIO" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
     </FlyoutItem>
 

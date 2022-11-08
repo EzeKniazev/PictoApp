@@ -41,6 +41,14 @@ namespace PictoApp.Views
         {
             await Navigation.PushAsync(new CategoryElements.DeportesPage());
         }
+        private async void BtnUruguay_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CategoryElements.UruguayPage());
+        }
+        private async void BtnComidas_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CategoryElements.ComidasPage());
+        }
         #endregion
     }
 }
