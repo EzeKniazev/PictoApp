@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Android.Content.Res;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;

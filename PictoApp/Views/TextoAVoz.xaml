@@ -12,7 +12,7 @@
                    FontAttributes="Bold"/>
             </Frame>
 
-            <Entry x:Name="TxtSpeech" Placeholder="Escribí lo que quieras decir" TextColor="Gray"/>
+            <Entry x:Name="TxtSpeech" Placeholder="Escribí lo que quieras decir" PlaceholderColor="DarkGray" TextColor="Black"/>
             <Button x:Name="BtnSpeech" Text="Vocalizar" Clicked="BtnSpeech_Clicked"/>
 
         </StackLayout>

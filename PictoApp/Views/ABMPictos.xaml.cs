@@ -22,7 +22,6 @@ namespace PictoApp.Views
             MostrarDatosPicto();
         }
 
-
         #region Pictogramas
         private void LimpiarPicto()
         {
@@ -65,7 +64,6 @@ namespace PictoApp.Views
             var obj = (MPictogramas)e.SelectedItem;
             BtnRegistrarPicto.IsVisible = false;
             TxTNomPicto.IsVisible = true;
-            BtnPickImages.IsVisible = true;
             BtnActualizarPicto.IsVisible = true;
             BtnEliminarPicto.IsVisible = true;
             if (!string.IsNullOrEmpty(obj.CodPicto.ToString()))
@@ -83,15 +81,13 @@ namespace PictoApp.Views
 
         private async void BtnRegistrarPicto_Clicked(object sender, EventArgs e)
         {
-            await PickerPhotoAsync();
             if (ValidarDatosPicto())
             {
                 MPictogramas pic = new MPictogramas
                 {
                     NomPicto = TxTNomPicto.Text,
                     TextoPicto = TxTPictoTexto.Text,
-                    CodCat = int.Parse(TxTCodCatP.Text),
-                    Picto = PhotoPath
+                    CodCat = int.Parse(TxTCodCatP.Text)
                 };
                 await App.SQLiteDB.SavePictoAsync(pic);
                 await DisplayAlert("Registro", "Se guardo de manera exitosa el pictograma", "Ok");
@@ -151,25 +147,143 @@ namespace PictoApp.Views
         }
         #endregion
 
-        private async void BtnPickImage_Clicked(object sender, EventArgs e)
+
+        /*#region Pictogramas
+        private void LimpiarPicto()
         {
-            await PickerPhotoAsync();
-            /*var ima = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
-            {
-                Title="Elegi un pictograma o imagen"
-            });
-            var stream = await ima.OpenReadAsync();
-
-            //byte[] ImageByte = new byte[r.Length];
-            // r.InputStream.Read(ImageByte, 0, ImageByte.Length);
-
-            //string ImageBase64 = Convert.ToBase64String(ImageByte); 
-
-            // byte[] newImageByte = Convert.FromBase64String(ImageBase64);
-            //  ResultImage.Source = ImageSource.FromStream(() => new MemoryStream(bytes)); 
-            */
+            TxtCodPicto.Text = "";
+            TxTNomPicto.Text = "";
+            TxTPictoTexto.Text = "";
+            TxTCodCatP.Text = "";
         }
 
+        public bool ValidarDatosPicto()
+        {
+            bool respuesta;
+            if (string.IsNullOrEmpty(TxTNomPicto.Text))
+            {
+                respuesta = false;
+            }
+            else if (string.IsNullOrEmpty(TxTPictoTexto.Text))
+            {
+                respuesta = false;
+            }
+            else
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+        public async void MostrarDatosPicto()
+        {
+            //mostrar la base de datos despues de registrar la categoria
+            var PictoList = await App.SQLiteDB.GetPictoAsync();
+            if (PictoList != null)
+            {
+                LstPicto.ItemsSource = PictoList;
+            }
+        }
+
+        private async void LstPicto_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var obj = (MPictogramas)e.SelectedItem;
+            BtnRegistrarPicto.IsVisible = false;
+            TxTNomPicto.IsVisible = true;
+            //BtnPickImages.IsVisible = true;
+            BtnActualizarPicto.IsVisible = true;
+            BtnEliminarPicto.IsVisible = true;
+            if (!string.IsNullOrEmpty(obj.CodPicto.ToString()))
+            {
+                var picto = await App.SQLiteDB.GetPictoByCodAsync(obj.CodPicto);
+                if (picto != null)
+                {
+                    TxtCodPicto.Text = picto.CodPicto.ToString();
+                    TxTNomPicto.Text = picto.NomPicto;
+                    TxTPictoTexto.Text = picto.TextoPicto;
+                    TxTCodCatP.Text = picto.CodCat.ToString();
+                }
+            }
+        }
+
+        private async void BtnRegistrarPicto_Clicked(object sender, EventArgs e)
+        {
+            //await PickerPhotoAsync();
+            if (ValidarDatosPicto())
+            {
+                MPictogramas pic = new MPictogramas
+                {
+                    NomPicto = TxTNomPicto.Text,
+                    TextoPicto = TxTPictoTexto.Text,
+                    CodCat = int.Parse(TxTCodCatP.Text),
+                    //Picto = PhotoPath
+                };
+                await App.SQLiteDB.SavePictoAsync(pic);
+                await DisplayAlert("Registro", "Se guardo de manera exitosa el pictograma", "Ok");
+                LimpiarPicto();
+                MostrarDatosPicto();
+            }
+            else
+            {
+                await DisplayAlert("Error", "Ingrese los datos de manera correcta", "Ok");
+            }
+        }
+
+        private async void BtnActualizarPicto_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TxtCodPicto.Text))
+            {
+                MPictogramas pictograma = new MPictogramas()
+                {
+                    CodPicto = Convert.ToInt32(TxtCodPicto.Text),
+                    NomPicto = TxTNomPicto.Text,
+                    TextoPicto = TxTPictoTexto.Text,
+                    CodCat = Convert.ToInt32(TxTCodCatP.Text),
+                };
+                await App.SQLiteDB.SavePictoAsync(pictograma);
+                await DisplayAlert("Modificación", "Se edito de manera exitosa el pictograma", "Ok");
+                TxtCodPicto.IsVisible = false;
+                BtnActualizarPicto.IsVisible = false;
+                BtnRegistrarPicto.IsVisible = true;
+                LimpiarPicto();
+                MostrarDatosPicto();
+            }
+        }
+
+        private async void BtnEliminarPicto_Clicked(object sender, EventArgs e)
+        {
+            var pict = await App.SQLiteDB.GetPictoByCodAsync(Convert.ToInt32(TxtCodPicto.Text));
+            if (pict != null)
+            {
+                if (CanDeleteP(pict))
+                {
+                    await App.SQLiteDB.DeletePictoAsync(pict);
+                    await DisplayAlert("Eliminado", "El pictograma a sido eliminada", "Ok");
+                    TxtCodPicto.IsVisible = false;
+                    BtnActualizarPicto.IsVisible = false;
+                    BtnEliminarPicto.IsVisible = false;
+                    BtnRegistrarPicto.IsVisible = true;
+                    LimpiarPicto();
+                    MostrarDatosPicto();
+                }
+            }
+        }
+
+        //control de si se autoriza a eliminar el objeto
+        private bool CanDeleteP(MPictogramas pict)
+        {
+            return true;
+        }
+        #endregion
+
+        /*
+        private async void BtnPickImage_Clicked(object sender, EventArgs e)
+        {
+            //await PickerPhotoAsync();
+            
+        }
+
+        
         string PhotoPath;
         string imageBase64;
         async Task<string> PickerPhotoAsync()
@@ -209,8 +323,7 @@ namespace PictoApp.Views
             /* using (var newStream = File.OpenWrite(newFile))
              {
                  await stream.CopyToAsync(newStream);
-             }*/
-
+             }
             //PhotoPath = newFile;
 
             var result = GetImageStreamAsBytes(stream);
@@ -219,11 +332,11 @@ namespace PictoApp.Views
             //PhotoPath = result;
             //string imageBase64 = Convert.ToBase64String(result);
             // PhotoPath = imageBase64;
-
         }
+
         public byte[] GetImageStreamAsBytes(Stream input)
         {
-            var buffer = new byte[16 * 1024];
+            var buffer = new byte[input.Length];
             using (MemoryStream ms = new MemoryStream())
             {
                 int read;
@@ -234,6 +347,12 @@ namespace PictoApp.Views
                 return ms.ToArray();
             }
         }
+
+
+        */
+
+
+
 
         /*
         public byte[] GetImagesBytes(Stream stream)
@@ -257,11 +376,6 @@ namespace PictoApp.Views
         }
         */
 
-        private void BtnElegirPicto_Clicked(object sender, EventArgs e)
-        {
-            byte[] bytes = System.Convert.FromBase64String(imageBase64);
-            ResultPicto.Source = ImageSource.FromStream(() => new MemoryStream(bytes));
-        }
 
         /*public byte[] ImageToByteArray(System.Drawing.Image imageIn)
         {

@@ -80,7 +80,7 @@
         <ShellContent Route="ABMCats" ContentTemplate="{DataTemplate local:ABMCats}" />
     </FlyoutItem>
     <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
-        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate local:ABMPictos}" />
+        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate local:ABMPictos}"  />
     </FlyoutItem>
     <FlyoutItem Title="Texto a Voz" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:TextoAVoz}" />

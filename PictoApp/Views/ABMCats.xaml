@@ -14,8 +14,8 @@
         <ScrollView>
             <StackLayout>
 
-                <Entry x:Name="TxtCodCat" IsVisible="False" TextColor="Gray"/>
-                <Entry x:Name="TxTNomCat" Placeholder="Nombre de la Categoria" TextColor="Gray"/>
+                <Entry x:Name="TxtCodCat" IsVisible="False" PlaceholderColor="DarkGray" TextColor="Black"/>
+                <Entry x:Name="TxTNomCat" Placeholder="Nombre de la Categoria" PlaceholderColor="DarkGray" TextColor="Black"/>
                 <Button x:Name="BtnRegistrarCat" Text="Registar" Clicked="BtnRegistrarCat_Clicked"/>
                 <Button x:Name="BtnActualizarCat" Text="Actualizar" Clicked="BtnActualizarCat_Clicked" IsVisible="False"/>
                 <Button x:Name="BtnEliminarCat" Text="Eliminar" Clicked="BtnEliminarCat_Clicked" IsVisible="False"/>
