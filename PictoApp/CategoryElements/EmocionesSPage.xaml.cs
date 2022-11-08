@@ -29,12 +29,12 @@ namespace PictoApp.CategoryElements
 
         private async void BtnOkay_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Okay");
+            await TextToSpeech.SpeakAsync("Esta bien");
         }
 
         private async void BtnMal_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Mal");
+            await TextToSpeech.SpeakAsync("Esta mal");
         }
 
         private async void BtnQuiero_Clicked(object sender, EventArgs e)
