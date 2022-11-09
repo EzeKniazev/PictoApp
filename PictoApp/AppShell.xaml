@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:PictoApp.Views"
+       xmlns:Local1="clr-namespace:PictoApp.Views.Usuarios"
+       xmlns:Local2="clr-namespace:PictoApp.Views"
        Title="AppQEEP"
        x:Class="PictoApp.AppShell">
     <!--
@@ -73,17 +74,17 @@
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
     <FlyoutItem Title="INICIO" Icon="icon_about.png">
-        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:CategoriesPage}" />
+        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:CategoriesPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Agregar Categoría" Icon="icon_about.png">
-        <ShellContent Route="ABMCats" ContentTemplate="{DataTemplate local:ABMCats}" />
+        <ShellContent Route="InicioCat" ContentTemplate="{DataTemplate Local1:InicioCat}" />
     </FlyoutItem>
     <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
-        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate local:ABMPictos}"  />
+        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate Local2:ABMPictos}"  />
     </FlyoutItem>
     <FlyoutItem Title="Texto a Voz" Icon="icon_about.png">
-        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate local:TextoAVoz}" />
+        <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:TextoAVoz}" />
     </FlyoutItem>
 
     <!-- Cuando el control flotante esté visible, este será un elemento de menú al que puede vincular un comportamiento de clic.  -->

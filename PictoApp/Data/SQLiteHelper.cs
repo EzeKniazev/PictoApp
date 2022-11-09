@@ -123,6 +123,19 @@ namespace PictoApp.Data
             return db.Table<MUsuarios>().Where(a => a.CodUser == codUser).FirstOrDefaultAsync();
         }
 
+        public bool LoginValidate(string userName1, string pwd1)
+        {
+            var data = db.Table<MUsuarios>();
+            var d1 = data.Where(x => x.NomUser == userName1 && x.Contrasena == pwd1).FirstOrDefaultAsync();
+
+            if (d1 != data.FirstOrDefaultAsync())
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+
         #endregion
     }
 }
