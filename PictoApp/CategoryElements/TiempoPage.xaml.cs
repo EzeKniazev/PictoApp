@@ -7,7 +7,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.CategoryElements
+namespace PictogrApp.CategoryElements
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TiempoPage : ContentPage

@@ -1,4 +1,4 @@
-﻿using PictoApp.Models;
+﻿using PictogrApp.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.Views
+namespace PictogrApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ABMPictos : ContentPage

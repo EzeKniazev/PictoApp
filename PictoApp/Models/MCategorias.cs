@@ -2,7 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-namespace PictoApp.Models
+
+namespace PictogrApp.Models
 {
     [Table("Categorias")]
     public class MCategorias

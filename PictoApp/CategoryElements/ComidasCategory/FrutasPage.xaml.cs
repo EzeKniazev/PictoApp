@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.CategoryElements.ComidasCategory
+namespace PictogrApp.CategoryElements.ComidasCategory
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FrutasPage : ContentPage

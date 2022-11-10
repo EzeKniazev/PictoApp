@@ -1,12 +1,12 @@
-﻿using PictoApp.Views;
+﻿using PictogrApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using PictoApp.Data;
+using PictogrApp.Data;
 using System.IO;
 using System.Diagnostics;
 
-namespace PictoApp
+namespace PictogrApp
 {
     public partial class App : Application
     {

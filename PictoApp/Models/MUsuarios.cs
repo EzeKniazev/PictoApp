@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PictoApp.Models
+namespace PictogrApp.Models
 {
     [Table("Usuarios")]
     public class MUsuarios

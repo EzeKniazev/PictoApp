@@ -7,7 +7,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.Views
+namespace PictogrApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TextoAVoz : ContentPage
