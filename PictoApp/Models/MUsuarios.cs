@@ -18,7 +18,7 @@ namespace PictoApp.Models
         public string NomUser { get; set; }
 
         [NotNull, MaxLength(30)]
-        public string Contraseña { get; set; }
+        public string Contrasena { get; set; }
 
     }
 }

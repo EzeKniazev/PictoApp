@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.Views
+namespace PictoApp.Views.Usuarios
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ABMUsers : ContentPage
+    public partial class Registrarse : ContentPage
     {
-        public ABMUsers()
+        public Registrarse()
         {
             InitializeComponent();
         }

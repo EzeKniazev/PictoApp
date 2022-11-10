@@ -17,9 +17,9 @@
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand"/>
                 <Entry x:Name="TxtCodPicto" IsVisible="False"/>
-                <Entry x:Name="TxTNomPicto" Placeholder="Nombre del Pictograma"/>
-                <Entry x:Name="TxTPictoTexto" Placeholder="Texto del pictograma (lo que dice)"/>
-                <Entry x:Name="TxTCodCatP" Placeholder="Codigo de la categoria a la que pertenece el pictograma"/>
+                    <Entry x:Name="TxTNomPicto" Placeholder="Nombre del Pictograma" PlaceholderColor="DarkGray" TextColor="Black"/>
+                    <Entry x:Name="TxTPictoTexto" Placeholder="Texto del pictograma (lo que dice)" PlaceholderColor="DarkGray" TextColor="Black"/>
+                    <Entry x:Name="TxTCodCatP" Placeholder="Codigo de la categoria a la que pertenece el pictograma" PlaceholderColor="DarkGray" TextColor="Black"/>
                 <Button x:Name="BtnRegistrarPicto" Text="Registrar" Clicked="BtnRegistrarPicto_Clicked"/>
                 <Button x:Name="BtnActualizarPicto" Text="Actualizar" Clicked="BtnActualizarPicto_Clicked" IsVisible="False"/>
                 <Button x:Name="BtnEliminarPicto" Text="Eliminar" Clicked="BtnEliminarPicto_Clicked" IsVisible="False"/>
