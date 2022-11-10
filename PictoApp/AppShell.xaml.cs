@@ -1,9 +1,9 @@
-﻿using PictoApp.Views;
+﻿using PictogrApp.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace PictoApp
+namespace PictogrApp
 {
     public partial class AppShell : Xamarin.Forms.Shell
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
-using PictoApp.Models;
+using PictogrApp.Models;
 using System.Threading.Tasks;
 
-namespace PictoApp.Data
+namespace PictogrApp.Data
 {
     public class SQLiteHelper
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.Views.Usuarios
+namespace PictogrApp.Views.Usuarios
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Registrarse : ContentPage
