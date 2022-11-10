@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PictoApp.CategoryElements
+namespace PictogrApp.CategoryElements
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UruguayPage : ContentPage
