@@ -18,11 +18,7 @@ namespace PictoApp.Data
             db.CreateTableAsync<MUsuarios>().Wait();
         }
 
-        /// <summary>
-        /// Guardar categorias en la base de datos
-        /// </summary>
-        /// <param name="Cate"></param>
-        /// <returns></returns>
+
         #region Categorias
         public Task<int> SaveCatAsync(MCategorias Cate)
         {
@@ -41,20 +37,12 @@ namespace PictoApp.Data
             return db.DeleteAsync(Cate);
         }
 
-        /// <summary>
-        /// Mostrar todas los categorias en la base de datos
-        /// </summary>
-        /// <returns>Todas las categorias</returns>
         public Task<List<MCategorias>> GetCatAsync()
         {
             return db.Table<MCategorias>().ToListAsync();
         }
 
-        /// <summary>
-        /// Muestra las categorias por el cod que le demos
-        /// </summary>
-        /// <param name="codCat"></param>
-        /// <returns></returns>
+
         public Task<MCategorias> GetCatByCodAsync(int codCat)
         {
             return db.Table<MCategorias>().Where(a => a.CodCat == codCat).FirstOrDefaultAsync();

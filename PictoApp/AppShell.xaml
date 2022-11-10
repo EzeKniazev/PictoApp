@@ -5,10 +5,7 @@
        xmlns:Local2="clr-namespace:PictoApp.Views"
        Title="AppQEEP"
        x:Class="PictoApp.AppShell">
-    <!--
-        La jerarquía visual general de la aplicación se define aquí, junto con la navegación.
-        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
-    -->
+
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
@@ -24,10 +21,7 @@
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
-            <!--
-            Estilos predeterminados para todos los elementos flotantes
-            https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
-            -->
+
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="White"></Setter>
             </Style>
@@ -52,7 +46,7 @@
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
-    <!--ACÁ SE ESPECIFICA LO QUE ES EL APARTADO SUPERIOR EL MENÚ HAMBURGUESA-->
+
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="Black"
@@ -68,17 +62,13 @@
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
-    <!-- 
-        Cuando el control flotante está visible, esto define el contenido que se mostrará en el control flotante.
-        FlyoutDisplayOptions="AsMultipleItems" creará un elemento flotante separado para cada elemento secundario
-        https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
-    -->
+
     <FlyoutItem Title="INICIO" Icon="icon_about.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:CategoriesPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Agregar Categoría" Icon="icon_about.png">
-        <ShellContent Route="InicioCat" ContentTemplate="{DataTemplate Local1:InicioCat}" />
+        <ShellContent Route="ABMCats" ContentTemplate="{DataTemplate Local2:ABMCats}" />
     </FlyoutItem>
     <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
         <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate Local2:ABMPictos}"  />
@@ -87,53 +77,6 @@
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:TextoAVoz}" />
     </FlyoutItem>
 
-    <!-- Cuando el control flotante esté visible, este será un elemento de menú al que puede vincular un comportamiento de clic.  -->
     <MenuItem Text="Salir" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
     </MenuItem>
-
-    <!--
-        TabBar le permite definir contenido que no aparecerá en un menú flotante. Cuando este contenido está activo
-        el menú flotante no estará disponible. Esto es útil para crear áreas de la aplicación donde
-        no desea que los usuarios puedan navegar fuera de ella. Si desea navegar hasta este
-        contenido puedes hacerlo llamando
-        esperar Shell.Current.GoToAsync("//LoginPage");
-    -->
-    <!--<TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />     IMPORTANTE - DIRECCIONA A LA PÁGINA DE LOGIN
-    </TabBar>
-    -->                  
-
-    <!-- Optional Templates 
-    // These may be provided inline as below or as separate classes.
-
-    // This header appears at the top of the Flyout.
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyout-header
-    <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
-            <Grid>ContentHere</Grid>
-        </DataTemplate>
-    </Shell.FlyoutHeaderTemplate>
-
-    // ItemTemplate is for ShellItems as displayed in a Flyout
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-flyoutitem-appearance
-    <Shell.ItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Title, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.ItemTemplate>
-
-    // MenuItemTemplate is for MenuItems as displayed in a Flyout
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-menuitem-appearance
-    <Shell.MenuItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Text, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>
-
-    -->
-
 </Shell>

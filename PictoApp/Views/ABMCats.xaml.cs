@@ -19,11 +19,9 @@ namespace PictoApp.Views
         public ABMCats()
         {
             InitializeComponent();
-            //Esto hay que cambiarlo de lugar cuando damasco haga los botones
             MostrarDatosCat();
         }
 
-        #region Categorias
         private void LimpiarCat()
         {
             TxtCodCat.Text = "";
@@ -72,11 +70,6 @@ namespace PictoApp.Views
             }
         }
 
-        /// <summary>
-        /// Registar categorias
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private async void BtnRegistrarCat_Clicked(object sender, EventArgs e)
         {
             if (ValidarDatosCat())
@@ -143,8 +136,6 @@ namespace PictoApp.Views
             //hacer grids segun la cantidad de categorias
             return true;
         }
-
-        #endregion
-
     }
 }
+

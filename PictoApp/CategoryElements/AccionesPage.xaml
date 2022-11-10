@@ -76,17 +76,15 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnOrdenar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A11.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnOrdenar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A11.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnOrdenar_Clicked">
-                                </ImageButton>
+                            </ImageButton>
 
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPintar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A12.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPintar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A12.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPintar_Clicked">
-                                </ImageButton>
-
+                            </ImageButton>
 
                         </Grid>
-
                     </StackLayout>
                 </ScrollView>
             </StackLayout>

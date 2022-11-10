@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace PictoApp.Models
 {
     [Table("Categorias")]
@@ -13,6 +12,5 @@ namespace PictoApp.Models
 
         [NotNull]
         public string NomCat { get; set; }
-
     }
 }

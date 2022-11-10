@@ -10,7 +10,6 @@
                    FontSize="22"
                    FontAttributes="Bold"/>
         </Frame>
-
         <ScrollView>
             <StackLayout>
 
@@ -40,10 +39,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <!--hasta aca es la lista de las categorias-->
-                
             </StackLayout>
         </ScrollView>
-
     </StackLayout>
 </ContentPage>
