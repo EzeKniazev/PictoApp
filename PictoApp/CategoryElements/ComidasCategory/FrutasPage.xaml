@@ -25,7 +25,7 @@
                             </ImageButton>
 
                         </Grid>
-
+                        
                         <Grid Margin="30,20" RowSpacing="20">
 
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArandanos" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF9.png"

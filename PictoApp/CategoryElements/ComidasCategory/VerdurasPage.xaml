@@ -25,7 +25,7 @@
                             </ImageButton>
 
                         </Grid>
-
+                        
                         <Grid Margin="30,20" RowSpacing="20">
 
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnBoniato" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV6.png"
@@ -43,7 +43,7 @@
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCebolla_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCalabacin" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV19.png"
+                           <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCalabacin" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV19.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCalabacin_Clicked">
                             </ImageButton>
 
@@ -52,7 +52,7 @@
 
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnEspinaca" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV10.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnEspinaca_Clicked">
-                            </ImageButton>
+                            </ImageButton> 
 
                             <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLechuga" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV7.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLechuga_Clicked">
@@ -116,7 +116,7 @@
                         </Grid>
                         <Grid Margin="30,20" RowSpacing="20">
 
-
+                            
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTomateCherry" CornerRadius="15" BackgroundColor="#97d5e0" Source="CV21.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTomateCherry_Clicked">
                             </ImageButton>
