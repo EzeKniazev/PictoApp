@@ -5,13 +5,16 @@ using System.Text;
 
 namespace PictogrApp.Models
 {
-    [Table("Categorias")]
+    [Table("Categoria")]
     public class MCategorias
     {
         [PrimaryKey,NotNull,AutoIncrement]
-        public int CodCat { get; set; }
+        public int codCat { get; set; }
 
         [NotNull]
-        public string NomCat { get; set; }
+        public string nomCat { get; set; }
+
+        [NotNull]
+        public int codUsuario { get; set; }
     }
 }
