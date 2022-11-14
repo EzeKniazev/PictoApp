@@ -4,9 +4,48 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.ArtigasPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Artigas" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCapital" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_Capital.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCapital_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnIglesiaSanEugenio" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_ISE.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnIglesiaSanEugenio_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnJefaturaDePolicia" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_JDP.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnJefaturaDePolicia_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPlazaBatlle" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_PB.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPlazaBlatlle_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnVirgenDeLos33" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_VDL33.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnVirgenDeLos33_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
