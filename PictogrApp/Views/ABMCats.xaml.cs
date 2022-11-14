@@ -13,7 +13,7 @@ using Xamarin.Forms.Xaml;
 
 namespace PictogrApp.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)] //Es posible que esta parte no abra a la primera, en ese caso porfavor intentar de nuevo
     public partial class ABMCats : ContentPage
     {
         public ABMCats()

@@ -3,10 +3,116 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PictogrApp.CategoryElements.ComidasCategory.FrutasPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+            <StackLayout>
+                <StackLayout>
+                    <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                        <Label Text="Frutas" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                        </Label>
+                    </Frame>
+
+                    <ScrollView>
+                        <StackLayout>
+
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnJugo" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF17.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnJugo_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtneLicuado" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF16.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLicuado_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArandanos" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF9.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArandanos_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnBanana" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF1.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnBanana_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCiruela" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF10.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCiruela_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFrutilla" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF2.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFrutilla_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnGranada" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF15.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnGranada_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLimon" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF6.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLimon_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLima" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF7.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLima_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnManzana" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF4.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnManzana_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMandarina" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF11.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMandarina_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnNaranja" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF5.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnNaranja_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPalta" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF3.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPalta_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPiña" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF8.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPiña_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPera" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF12.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPera_Clicked">
+                                </ImageButton>
+
+                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPomelo" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF14.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPomelo_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                            <Grid Margin="30,20" RowSpacing="20">
+
+                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnUvas" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF13.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnUvas_Clicked">
+                                </ImageButton>
+
+                            </Grid>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>

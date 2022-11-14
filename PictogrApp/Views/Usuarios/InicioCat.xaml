@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PictogrApp.Views.Usuarios.InicioCat">
     <ContentPage.Content>
-        <AbsoluteLayout>
+        <AbsoluteLayout> <!--POR TEMA DE TIEMPO, ESTA FUNCIÓN NO A SIDO IMPLEMENTADA - PERO SE PREVEE QUE SE HAGA EN UN FUTURO-->
        
                 <Image Source="LogoXamarin.png" HeightRequest="140" WidthRequest="140"  BackgroundColor="Transparent"/>
             <Entry x:Name="TxtEmail" Placeholder="Email" PlaceholderColor="DarkGray" TextColor="Black"/>

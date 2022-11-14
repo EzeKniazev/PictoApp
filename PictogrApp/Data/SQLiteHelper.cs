@@ -27,7 +27,6 @@ namespace PictogrApp.Data
 
             }
 
-
             db = new SQLiteAsyncConnection(DBPath);
             db.CreateTableAsync<MCategorias>().Wait();
             db.CreateTableAsync<MPictogramas>().Wait();

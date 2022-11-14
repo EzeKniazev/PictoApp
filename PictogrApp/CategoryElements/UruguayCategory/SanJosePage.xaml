@@ -4,9 +4,9 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.SanJosePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
