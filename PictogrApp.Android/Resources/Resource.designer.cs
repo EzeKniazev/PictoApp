@@ -17203,6 +17203,9 @@ namespace PictogrApp.Droid
 			// aapt resource value: 0x7F070143
 			public const int TreintaYTres = 2131165507;
 			
+			// aapt resource value: 0x7F070144
+			public const int Uruguay = 2131165508;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

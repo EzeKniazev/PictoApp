@@ -44,11 +44,11 @@
 
                     <Grid Margin="30,20" RowSpacing="20">
                         <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="15" BackgroundColor="#97d5e0" WidthRequest="200" 
-                                     HeightRequest="200" HorizontalOptions="Start" Source="" Clicked="BtnUruguay_OnClicked">
+                                     HeightRequest="200" HorizontalOptions="Start" Source="Uruguay.png" Clicked="BtnUruguay_OnClicked">
                         </ImageButton>
 
                         <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="15" BackgroundColor="#97d5e0" WidthRequest="200" 
-                                     HeightRequest="200" HorizontalOptions="Start" Source="" Clicked="BtnComidas_OnClicked">
+                                     HeightRequest="200" HorizontalOptions="Start" Source="Comidas.png" Clicked="BtnComidas_OnClicked">
                         </ImageButton>
                     </Grid>
                 </StackLayout>
