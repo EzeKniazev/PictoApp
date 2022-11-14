@@ -32,8 +32,9 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Text="{Binding CodCat}" Grid.Row="0" Grid.Column="0" TextColor="Aqua"/>
-                                    <Label Text="{Binding NomCat}" Grid.Row="0" Grid.Column="1" TextColor="Black"/>
+                                    <Label Text="{Binding codCat}" Grid.Row="0" Grid.Column="0" TextColor="Aqua"/>
+                                    <Label Text="{Binding nomCat}" Grid.Row="0" Grid.Column="1" TextColor="Black"/>
+                                    <Label Text="{Binding codUsusario}" Grid.Row="0" Grid.Column="1" TextColor="Black"/>
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>

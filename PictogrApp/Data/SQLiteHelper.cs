@@ -4,15 +4,31 @@ using System.Text;
 using SQLite;
 using PictogrApp.Models;
 using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
 
 namespace PictogrApp.Data
 {
     public class SQLiteHelper
     {
-        SQLiteAsyncConnection db;
-        public SQLiteHelper(string dbPath)
+        static SQLiteAsyncConnection db;
+        public SQLiteHelper()
         {
-            db = new SQLiteAsyncConnection(dbPath);
+            string DBPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "PictgrAppDB.db");
+            Assembly assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
+            Stream embeddedDBStream = assembly.GetManifestResourceStream("PictogrApp.PictogrAppDB.db");
+
+            if (!File.Exists(DBPath))
+            {
+                FileStream FileStreamToWrite = File.Create(DBPath);
+                embeddedDBStream.Seek(0, SeekOrigin.Begin);
+                embeddedDBStream.CopyTo(FileStreamToWrite);
+                FileStreamToWrite.Close();
+
+            }
+
+
+            db = new SQLiteAsyncConnection(DBPath);
             db.CreateTableAsync<MCategorias>().Wait();
             db.CreateTableAsync<MPictogramas>().Wait();
             db.CreateTableAsync<MUsuarios>().Wait();
@@ -22,7 +38,7 @@ namespace PictogrApp.Data
         #region Categorias
         public Task<int> SaveCatAsync(MCategorias Cate)
         {
-            if (Cate.CodCat != 0)
+            if (Cate.codCat != 0)
             {
                 return db.UpdateAsync(Cate);
             }
@@ -45,7 +61,7 @@ namespace PictogrApp.Data
 
         public Task<MCategorias> GetCatByCodAsync(int codCat)
         {
-            return db.Table<MCategorias>().Where(a => a.CodCat == codCat).FirstOrDefaultAsync();
+            return db.Table<MCategorias>().Where(a => a.codCat == codCat).FirstOrDefaultAsync();
         }
         #endregion
 

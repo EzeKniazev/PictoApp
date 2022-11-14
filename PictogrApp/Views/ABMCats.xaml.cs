@@ -59,13 +59,13 @@ namespace PictogrApp.Views
             TxTNomCat.IsVisible = true;
             BtnActualizarCat.IsVisible = true;
             BtnEliminarCat.IsVisible = true;
-            if (!string.IsNullOrEmpty(obj.CodCat.ToString()))
+            if (!string.IsNullOrEmpty(obj.codCat.ToString()))
             {
-                var cat = await App.SQLiteDB.GetCatByCodAsync(obj.CodCat);
+                var cat = await App.SQLiteDB.GetCatByCodAsync(obj.codCat);
                 if (cat != null)
                 {
-                    TxtCodCat.Text = cat.CodCat.ToString();
-                    TxTNomCat.Text = cat.NomCat;
+                    TxtCodCat.Text = cat.codCat.ToString();
+                    TxTNomCat.Text = cat.nomCat;
                 }
             }
         }
@@ -76,7 +76,7 @@ namespace PictogrApp.Views
             {
                 MCategorias cat = new MCategorias
                 {
-                    NomCat = TxTNomCat.Text
+                    nomCat = TxTNomCat.Text
                 };
                 await App.SQLiteDB.SaveCatAsync(cat);
                 await DisplayAlert("Registro", "Se guardo de manera exitosa la categoria", "Ok");
@@ -95,8 +95,8 @@ namespace PictogrApp.Views
             {
                 MCategorias categorias = new MCategorias()
                 {
-                    CodCat = Convert.ToInt32(TxtCodCat.Text),
-                    NomCat = TxTNomCat.Text
+                    codCat = Convert.ToInt32(TxtCodCat.Text),
+                    nomCat = TxTNomCat.Text
                 };
                 await App.SQLiteDB.SaveCatAsync(categorias);
                 await DisplayAlert("Modificación", "Se edito de manera exitosa la categoria", "Ok");

@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 using PictogrApp.Data;
 using System.IO;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace PictogrApp
 {
@@ -24,12 +25,14 @@ namespace PictogrApp
             {
                 if (db == null)
                 {
-                    db = new SQLiteHelper(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "PictoApp.db3"));
+                    db = new SQLiteHelper();
                 }
                 return db;
             }
+
         }
 
+  
         protected override void OnStart()
         {
             Debug.WriteLine("OnStart");
