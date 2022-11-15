@@ -16,35 +16,52 @@ namespace PictogrApp.CategoryElements
         {
             InitializeComponent();
         }
-
-        private async void BtnFeliz_Clicked(object sender, EventArgs e)
+        private async void BtnSi_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Si");
+        }
+        private async void BtnNo_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("No");
+        }
+        private async void BtnEstoyFeliz_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Estoy Feliz");
         }
 
-        private async void BtnTriste_Clicked(object sender, EventArgs e)
+        private async void BtnEstoyTriste_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Estoy triste");
+            await TextToSpeech.SpeakAsync("Estoy Triste");
+        }
+        private async void BtnEstoyEnojado_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Estoy Enojado");
+        }
+        private async void BtnEstaBien_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Esta Bien");
         }
 
-        private async void BtnOkay_Clicked(object sender, EventArgs e)
+        private async void BtnEstaMal_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Esta bien");
+            await TextToSpeech.SpeakAsync("Esta Mal");
         }
-
-        private async void BtnMal_Clicked(object sender, EventArgs e)
+        private async void BtnEnserio_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Esta mal");
+            await TextToSpeech.SpeakAsync("¿Enserio?");
         }
 
         private async void BtnQuiero_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Quiero");
         }
-
+        private async void BtnQuieroMas_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Quiero Más");
+        }
         private async void BtnNoQuiero_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("No quiero");
+            await TextToSpeech.SpeakAsync("No Quiero");
         }
 
         private async void BtnTengo_Clicked(object sender, EventArgs e)
@@ -52,10 +69,7 @@ namespace PictogrApp.CategoryElements
             await TextToSpeech.SpeakAsync("Tengo");
         }
 
-        private async void BtnDolor_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Me duele");
-        }
+        //ME PIDE QUE DEJE ESTE ESPACIO, NO SE PORQUE
 
         private async void BtnTengoCalor_Clicked(object sender, EventArgs e)
         {
@@ -64,7 +78,23 @@ namespace PictogrApp.CategoryElements
 
         private async void BtnTengoFrio_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Tengo frio");
+            await TextToSpeech.SpeakAsync("Tengo Frio");
+        }
+        private async void BtnTengoMiedo_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Tengo Miedo");
+        }
+        private async void BtnMeInteresa_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Me Interesa");
+        }
+        private async void BtnMeDuele_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Me Duele");
+        }
+        private async void BtnMeDaVerguenza_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Me da Vergüenza");
         }
     }
 }
