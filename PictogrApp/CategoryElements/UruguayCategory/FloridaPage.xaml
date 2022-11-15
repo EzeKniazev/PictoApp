@@ -4,9 +4,50 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.FloridaPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Florida" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+                
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloridaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepGCapillaSanCono_Florida.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloridaA_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloridaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepGCatedralDeFlorida_Florida.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloridaB_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloridaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepGLaindiaSomoNaturaleza_Florida.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloridaC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloridaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepGParqueRobaina_Florida.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloridaD_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloridaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepGPradoPiedraAlta_Florida.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloridaE_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>        
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,9 +4,50 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.PaysanduPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Paysandu" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+                
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKCasaDeCultura_Paysandu.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduA_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKObelisco_Paysandu.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduB_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKPlaya_Paysandu.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKShoppingTerminal_Paysandu.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduD_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKTermasDeGuaviyu_Paysandu.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduE_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>        
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

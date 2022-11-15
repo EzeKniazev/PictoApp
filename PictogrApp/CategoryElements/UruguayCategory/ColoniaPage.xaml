@@ -4,9 +4,50 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.ColoniaPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Colonia" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+                
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnColoniaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepDCalleDeLosSuspiros_Colonia.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnColoniaA_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnColoniaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepDFaro_Colonia.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnColoniaB_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnColoniaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepDGranjaArena_Colonia.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnColoniaC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnColoniaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepDMuelleDelPuertoDeYates_Colonia.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnColoniaD_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnColoniaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepDPlazaDeLosToros_Colonia.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnColoniaE_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>        
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

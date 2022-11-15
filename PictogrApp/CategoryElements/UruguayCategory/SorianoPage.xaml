@@ -4,9 +4,50 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.SorianoPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Soriano" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+                
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSorianoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN3BalnearioConcordia_Soriano.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSorianoA_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSorianoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN3CastilloDeMaua_Soriano.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSorianoB_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSorianoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN3Catedral_Soriano.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSorianoC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSorianoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN3Rambla_Soriano.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSorianoD_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSorianoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN3Timbo_Soriano.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSorianoE_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>        
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
