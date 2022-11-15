@@ -20,6 +20,22 @@ namespace PictogrApp.CategoryElements
         {
             await TextToSpeech.SpeakAsync("Agua");
         }
+        private async void BtnAguaConGas_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Agua con Gas");
+        }
+        private async void BtnRefrescos_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Refresco");
+        }
+        private async void BtnAlcohol_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Bebida Alcohólica");
+        }
+        private async void BtnTe_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Té");
+        }
         #region Dulces
         private async void BtnChicle_Clicked(object sender, EventArgs e)
         {
@@ -143,9 +159,9 @@ namespace PictogrApp.CategoryElements
         {
             await TextToSpeech.SpeakAsync("Leche");
         }
-        private async void BtnMani_Clicked(object sender, EventArgs e)
+        private async void BtnYerba_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Maní");
+            await TextToSpeech.SpeakAsync("Yerba");
         }
         private async void BtnMate_Clicked(object sender, EventArgs e)
         {
