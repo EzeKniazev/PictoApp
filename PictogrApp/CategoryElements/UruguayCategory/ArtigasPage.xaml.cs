@@ -16,25 +16,24 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         {
             InitializeComponent();
         }
-        private async void BtnCapital_Clicked(object sender, EventArgs e)
+        private async void BtnArtigasA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Artigas");
+            await TextToSpeech.SpeakAsync("Iglesia san eugenio");
         }
-        private async void BtnIglesiaSanEugenio_Clicked(object sender, EventArgs e)
+
+        private async void BtnArtigasB_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Iglesia San Eugenio");
+            await TextToSpeech.SpeakAsync("Jefatura de policia");
         }
-        private async void BtnJefaturaDePolicia_Clicked(object sender, EventArgs e)
+
+        private async void BtnArtigasC_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Jefatura De Policia");
+            await TextToSpeech.SpeakAsync("Plaza batlle");
         }
-        private async void BtnPlazaBlatlle_Clicked(object sender, EventArgs e)
+
+        private async void BtnArtigasD_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Plaza Batlle");
-        }
-        private async void BtnVirgenDeLos33_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Virgen De Los 33");
+            await TextToSpeech.SpeakAsync("Virgen de los 33");
         }
     }
 }

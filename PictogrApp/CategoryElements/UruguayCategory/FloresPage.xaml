@@ -4,9 +4,50 @@
              x:Class="PictogrApp.CategoryElements.UruguayCategory.FloresPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NO SE A IMPLEMENTADO ESTA FUNCIÓN AÚN"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <StackLayout>
+                <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
+                    <Label Text="Flores" HorizontalTextAlignment="Start" TextColor="White" 
+                           FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
+                    </Label>
+                </Frame>
+                
+                <ScrollView>
+                    <StackLayout>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFBalnearioDonRicardo_Flores.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresA_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFEcoparqueTalice_Flores.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresB_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFParqueCentenario_Flores.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFPlazaConstitucion_Flores.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresD_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFPlazaWalterEcheverria_Flores.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresE_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>        
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

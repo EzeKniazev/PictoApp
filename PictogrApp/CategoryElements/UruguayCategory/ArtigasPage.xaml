@@ -10,41 +10,35 @@
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
-
+                
                 <ScrollView>
                     <StackLayout>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCapital" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_Capital.png"
-                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCapital_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAIglesiaSanEugenio_Artigas_Exterior.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnIglesiaSanEugenio" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_ISE.png"
-                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnIglesiaSanEugenio_Clicked">
-                            </ImageButton>
-
-                        </Grid>
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnJefaturaDePolicia" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_JDP.png"
-                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnJefaturaDePolicia_Clicked">
-                            </ImageButton>
-
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPlazaBatlle" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_PB.png"
-                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPlazaBlatlle_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAJefaturaDePolicias_Artigas.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasB_Clicked">
                             </ImageButton>
 
                         </Grid>
+
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnVirgenDeLos33" CornerRadius="15" BackgroundColor="#97d5e0" Source="ART_VDL33.png"
-                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnVirgenDeLos33_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAplazaBatlle_Artigas.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasC_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAVirgenDeLos33_Artigas.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasD_Clicked">
                             </ImageButton>
 
                         </Grid>
                     </StackLayout>
-                </ScrollView>
+                </ScrollView>        
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
