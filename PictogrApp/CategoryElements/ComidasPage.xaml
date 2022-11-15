@@ -20,8 +20,30 @@
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAgua_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArroz" CornerRadius="15" BackgroundColor="#97d5e0" Source="C30.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnAguaConGas" CornerRadius="15" BackgroundColor="#97d5e0" Source="C37.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAguaConGas_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRefrescos" CornerRadius="15" BackgroundColor="#97d5e0" Source="C41.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRefrescos_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnAlcohol"  CornerRadius="15" BackgroundColor="#97d5e0" Source="C40.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAlcohol_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArroz" CornerRadius="15" BackgroundColor="#97d5e0" Source="C30.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArroz_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTe"  CornerRadius="15" BackgroundColor="#97d5e0" Source="C39.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTe_Clicked">
                             </ImageButton>
 
                         </Grid>
@@ -53,8 +75,8 @@
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLeche_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMani" CornerRadius="15" BackgroundColor="#97d5e0" Source="C8.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMani_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnYerba" CornerRadius="15" BackgroundColor="#97d5e0" Source="C38.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnYerba_Clicked">
                             </ImageButton>
 
                         </Grid>
