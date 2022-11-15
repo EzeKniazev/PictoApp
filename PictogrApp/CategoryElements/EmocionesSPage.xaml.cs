@@ -48,7 +48,7 @@ namespace PictogrApp.CategoryElements
         }
         private async void BtnEnserio_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("¿Enserio?");
+            await TextToSpeech.SpeakAsync("¿Una Pregunta?");
         }
 
         private async void BtnQuiero_Clicked(object sender, EventArgs e)
