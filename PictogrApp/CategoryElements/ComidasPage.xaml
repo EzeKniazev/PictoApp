@@ -16,6 +16,18 @@
 <!--COMIENZO-->
                         <Grid Margin="30,20" RowSpacing="20">
 
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFrutas"  CornerRadius="15" BackgroundColor="#97d5e0" Source="Frutas.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFrutas_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnVerduras" CornerRadius="15" BackgroundColor="#97d5e0" Source="Verduras.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnVerduras_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        
+                        <Grid Margin="30,20" RowSpacing="20">
+
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnAgua"  CornerRadius="15" BackgroundColor="#97d5e0" Source="C29.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnAgua_Clicked">
                             </ImageButton>
@@ -91,21 +103,7 @@
                             </ImageButton>
 
                         </Grid>
-<!--FINAL-->
-<!--COMIENZO-->
-                        <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFrutas"  CornerRadius="15" BackgroundColor="#97d5e0" Source="Frutas.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFrutas_Clicked">
-                            </ImageButton>
-
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnVerduras" CornerRadius="15" BackgroundColor="#97d5e0" Source="Verduras.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnVerduras_Clicked">
-                            </ImageButton>
-
-                        </Grid>
-<!--FINAL-->
-<!--COMIENZO-->
                         <Grid Margin="30,20" RowSpacing="20">
 
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnAsado"  CornerRadius="15" BackgroundColor="#97d5e0" Source="C1.png"
