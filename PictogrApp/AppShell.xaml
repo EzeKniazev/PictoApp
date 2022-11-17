@@ -69,6 +69,10 @@
     <FlyoutItem Title="INICIO" Icon="Inicio.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:CategoriesPage}" />
     </FlyoutItem>
+    
+<!-- <FlyoutItem Title="SESIÓN" Icon="Sesion.png">
+        <ShellContent Route="StartPage" ContentTemplate="{DataTemplate Local1:StartPage}" />
+    </FlyoutItem>   -->
 
     <FlyoutItem Title="TEXTO A VOZ" Icon="TextAVoz.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:TextoAVoz}" />
@@ -79,6 +83,4 @@
     <FlyoutItem Title="AGREGAR PICTOGRAMA" Icon="Pictogramas.png">
         <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate Local2:ABMPictos}"  />
     </FlyoutItem>
-    <!--   <MenuItem Text="Salir" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
-    </MenuItem> -->
 </Shell>

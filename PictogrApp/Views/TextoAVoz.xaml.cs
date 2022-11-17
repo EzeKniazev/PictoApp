@@ -16,7 +16,10 @@ namespace PictogrApp.Views
         {
             InitializeComponent();
         }
-
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
         private async void BtnSpeech_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync(TxtSpeech.Text);

@@ -21,7 +21,10 @@ namespace PictogrApp.Views
             InitializeComponent();
             MostrarDatosCat();
         }
-
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
         private void LimpiarCat()
         {
             TxtCodCat.Text = "";

@@ -16,6 +16,10 @@ namespace PictogrApp.Views
         {
             InitializeComponent();
         }
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
         #region BtnCategorías
         private async void BtnAcciones_OnClicked(object sender, EventArgs e)
         {

@@ -17465,109 +17465,112 @@ namespace PictogrApp.Droid
 			public const int SAOT = 2131165594;
 			
 			// aapt resource value: 0x7F07019B
-			public const int SJCSJDM = 2131165595;
+			public const int Sesion = 2131165595;
 			
 			// aapt resource value: 0x7F07019C
-			public const int SJMD = 2131165596;
+			public const int SJCSJDM = 2131165596;
 			
 			// aapt resource value: 0x7F07019D
-			public const int SJP = 2131165597;
+			public const int SJMD = 2131165597;
 			
 			// aapt resource value: 0x7F07019E
-			public const int SJSDM = 2131165598;
+			public const int SJP = 2131165598;
 			
 			// aapt resource value: 0x7F07019F
-			public const int SJTB = 2131165599;
+			public const int SJSDM = 2131165599;
 			
 			// aapt resource value: 0x7F0701A0
-			public const int Soriano = 2131165600;
+			public const int SJTB = 2131165600;
 			
 			// aapt resource value: 0x7F0701A1
-			public const int STOGDPP = 2131165601;
+			public const int Soriano = 2131165601;
 			
 			// aapt resource value: 0x7F0701A2
-			public const int STOPDS = 2131165602;
+			public const int STOGDPP = 2131165602;
 			
 			// aapt resource value: 0x7F0701A3
-			public const int STORDS = 2131165603;
+			public const int STOPDS = 2131165603;
 			
 			// aapt resource value: 0x7F0701A4
-			public const int STOTDA = 2131165604;
+			public const int STORDS = 2131165604;
 			
 			// aapt resource value: 0x7F0701A5
-			public const int STOTDD = 2131165605;
+			public const int STOTDA = 2131165605;
 			
 			// aapt resource value: 0x7F0701A6
-			public const int T1 = 2131165606;
+			public const int STOTDD = 2131165606;
 			
 			// aapt resource value: 0x7F0701A7
-			public const int T4 = 2131165607;
+			public const int T1 = 2131165607;
 			
 			// aapt resource value: 0x7F0701A8
-			public const int T5 = 2131165608;
+			public const int T4 = 2131165608;
 			
 			// aapt resource value: 0x7F0701A9
-			public const int T6 = 2131165609;
+			public const int T5 = 2131165609;
 			
 			// aapt resource value: 0x7F0701AA
-			public const int T7 = 2131165610;
+			public const int T6 = 2131165610;
 			
 			// aapt resource value: 0x7F0701AB
-			public const int Tacuarembo = 2131165611;
+			public const int T7 = 2131165611;
 			
 			// aapt resource value: 0x7F0701AC
-			public const int test_custom_background = 2131165612;
+			public const int Tacuarembo = 2131165612;
 			
 			// aapt resource value: 0x7F0701AD
-			public const int TextAVoz = 2131165613;
+			public const int test_custom_background = 2131165613;
 			
 			// aapt resource value: 0x7F0701AE
-			public const int Tiempo = 2131165614;
+			public const int TextAVoz = 2131165614;
 			
 			// aapt resource value: 0x7F0701AF
-			public const int tooltip_frame_dark = 2131165615;
+			public const int Tiempo = 2131165615;
 			
 			// aapt resource value: 0x7F0701B0
-			public const int tooltip_frame_light = 2131165616;
+			public const int tooltip_frame_dark = 2131165616;
 			
 			// aapt resource value: 0x7F0701B1
-			public const int TreintaYTres = 2131165617;
+			public const int tooltip_frame_light = 2131165617;
 			
 			// aapt resource value: 0x7F0701B2
-			public const int TROGDLH = 2131165618;
+			public const int TreintaYTres = 2131165618;
 			
 			// aapt resource value: 0x7F0701B3
-			public const int TROMCG = 2131165619;
+			public const int TROGDLH = 2131165619;
 			
 			// aapt resource value: 0x7F0701B4
-			public const int TROMDAV = 2131165620;
+			public const int TROMCG = 2131165620;
 			
 			// aapt resource value: 0x7F0701B5
-			public const int TROMDIDGEW = 2131165621;
+			public const int TROMDAV = 2131165621;
 			
 			// aapt resource value: 0x7F0701B6
-			public const int TROPH = 2131165622;
+			public const int TROMDIDGEW = 2131165622;
 			
 			// aapt resource value: 0x7F0701B7
-			public const int TYTABDA = 2131165623;
+			public const int TROPH = 2131165623;
 			
 			// aapt resource value: 0x7F0701B8
-			public const int TYTAN = 2131165624;
+			public const int TYTABDA = 2131165624;
 			
 			// aapt resource value: 0x7F0701B9
-			public const int TYTOF = 2131165625;
+			public const int TYTAN = 2131165625;
 			
 			// aapt resource value: 0x7F0701BA
-			public const int TYTP19DA = 2131165626;
+			public const int TYTOF = 2131165626;
 			
 			// aapt resource value: 0x7F0701BB
-			public const int TYTQDLC = 2131165627;
+			public const int TYTP19DA = 2131165627;
 			
 			// aapt resource value: 0x7F0701BC
-			public const int Uruguay = 2131165628;
+			public const int TYTQDLC = 2131165628;
 			
 			// aapt resource value: 0x7F0701BD
-			public const int Verduras = 2131165629;
+			public const int Uruguay = 2131165629;
+			
+			// aapt resource value: 0x7F0701BE
+			public const int Verduras = 2131165630;
 			
 			static Drawable()
 			{
