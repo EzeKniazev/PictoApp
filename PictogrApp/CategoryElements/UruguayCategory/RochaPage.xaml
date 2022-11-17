@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Rocha" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Rocha" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN0FortalezaSantaTeresa_Rocha.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="RCAFST.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRochaA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRochaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN0MonteDeOmbues_Rocha.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRochaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="RCAMDO.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRochaB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN0PlayaGrande_Rocha.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="RCAPG.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRochaC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRochaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN0PlayaLaMoza_Rocha.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRochaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="RCAPLM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRochaD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN0PuntaDelDiablo_Rocha.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRochaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="RCAPDD.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRochaE_Clicked">
                             </ImageButton>
 

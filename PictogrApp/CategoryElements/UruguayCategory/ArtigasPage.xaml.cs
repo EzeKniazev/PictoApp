@@ -18,17 +18,17 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         }
         private async void BtnArtigasA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Iglesia san eugenio");
+            await TextToSpeech.SpeakAsync("Iglesia San Eugenio");
         }
 
         private async void BtnArtigasB_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Jefatura de policia");
+            await TextToSpeech.SpeakAsync("Jefatura de Policía");
         }
 
         private async void BtnArtigasC_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Plaza batlle");
+            await TextToSpeech.SpeakAsync("Plaza Batlle");
         }
 
         private async void BtnArtigasD_Clicked(object sender, EventArgs e)

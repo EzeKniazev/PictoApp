@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Maldonado" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Maldonado" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepICastilloPittamiglio_Maldonado.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="MDNDCP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMaldonadoA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMaldonadoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepIMiradorPuntaBallena_Maldonado.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMaldonadoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="MDNDMPB.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMaldonadoB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepIMuseoDelMar_Maldonado.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="MDNDMDM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMaldonadoC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMaldonadoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepIPlazaPortezuelo_Maldonado.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMaldonadoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="MDNDPP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMaldonadoD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepIPuenteLagunaGarzon_Maldonado.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMaldonadoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="MDNDPLG.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMaldonadoE_Clicked">
                             </ImageButton>
 

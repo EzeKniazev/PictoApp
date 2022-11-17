@@ -18,7 +18,7 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         }
         private async void BtnSaltoA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Gruta del padre pio");
+            await TextToSpeech.SpeakAsync("Gruta del padre pío");
         }
 
         private async void BtnSaltoB_Clicked(object sender, EventArgs e)

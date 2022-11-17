@@ -18,7 +18,7 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         }
         private async void BtnColoniaA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Calle de los suspiros");
+            await TextToSpeech.SpeakAsync("Calle de los Suspiros");
         }
 
         private async void BtnColoniaB_Clicked(object sender, EventArgs e)
@@ -28,17 +28,17 @@ namespace PictogrApp.CategoryElements.UruguayCategory
 
         private async void BtnColoniaC_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Granja arena");
+            await TextToSpeech.SpeakAsync("Granja Arena");
         }
 
         private async void BtnColoniaD_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Muelle del puerto de yates");
+            await TextToSpeech.SpeakAsync("Muelle del Puerto de Yates");
         }
 
         private async void BtnColoniaE_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Plaza de los toros");
+            await TextToSpeech.SpeakAsync("Plaza de los Toros");
         }
     }
 }

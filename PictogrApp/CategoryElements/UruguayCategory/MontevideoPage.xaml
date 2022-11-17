@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Montevideo" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Montevideo" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepJMercadoAgricola_Montevideo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="MTVOMA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMontevideoA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMontevideoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepJMontevideoSign_Montevideo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMontevideoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="MTVOMS.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMontevideoB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepJMuseoDeLosAndes_Montevideo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="MTVOMDLA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMontevideoC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMontevideoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepJRamblaDeMontevideo_Montevideo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMontevideoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="MTVORDM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMontevideoD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepJTeatroSolis_Montevideo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMontevideoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="MTVOTS.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMontevideoE_Clicked">
                             </ImageButton>
 

@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Treinta Y Tres" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Treinta Y Tres" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4ArcoBicentenarioDeArtigas_TreintaYTres.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresA" CornerRadius="15" BackgroundColor="#97d5e0" Source="TYTABDA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTreintaYTresA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTreintaYTresB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4AventuraNativa_TreintaYTres.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTreintaYTresB" CornerRadius="15" BackgroundColor="#97d5e0" Source="TYTAN.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTreintaYTresB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4ObeliscoFundadores_TreintaYTres.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresC" CornerRadius="15" BackgroundColor="#97d5e0" Source="TYTOF.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTreintaYTresC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTreintaYTresD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4Plaza19DeAbril_TreintaYTres.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTreintaYTresD" CornerRadius="15" BackgroundColor="#97d5e0" Source="TYTP19DA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTreintaYTresD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4QuebradaDeLosCuervos_TreintaYTres.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTreintaYTresE" CornerRadius="15" BackgroundColor="#97d5e0" Source="TYTQDLC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTreintaYTresE_Clicked">
                             </ImageButton>
 

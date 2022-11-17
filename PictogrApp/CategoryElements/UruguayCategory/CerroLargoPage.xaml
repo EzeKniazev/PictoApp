@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Cerro Largo" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Cerro Largo" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepCCatedralNuestraSeñoraySanRafael_CerroLargo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLCNSSR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCerroLargoA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCerroLargoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepCFuenteDeLos200Años_CerroLargo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCerroLargoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLFDL200A.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCerroLargoB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepCLagoMerin_CerroLargo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLLM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCerroLargoC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCerroLargoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepCMuseoHistoricoGeneralAparicioSaravia_CerroLargo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCerroLargoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLMHGAS.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCerroLargoD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepCMuseoPostaDelChuy_CerroLargo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCerroLargoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLMPDC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCerroLargoE_Clicked">
                             </ImageButton>
 

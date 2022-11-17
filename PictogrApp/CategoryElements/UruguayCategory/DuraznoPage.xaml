@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Durazno" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Durazno" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepEAguaClara_Durazno.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DRZOAC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDuraznoA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDuraznoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepEBioparqueWashington_Durazno.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDuraznoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DRZOBW.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDuraznoB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepEGrutaDeReyles_Durazno.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DRZOGDR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDuraznoC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDuraznoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepEIglesiaSanPedro_Durazno.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDuraznoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DRZOISP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDuraznoD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepEMuseoHistorico_Durazno.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDuraznoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DRZOMH.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDuraznoE_Clicked">
                             </ImageButton>
 

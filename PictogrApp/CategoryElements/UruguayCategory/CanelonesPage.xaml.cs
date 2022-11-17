@@ -18,27 +18,27 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         }
          private async void BtnCanelonesA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Balneario argentino");
+            await TextToSpeech.SpeakAsync("Balneario Argentino");
         }
 
         private async void BtnCanelonesB_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Cuchilla alta");
+            await TextToSpeech.SpeakAsync("Cuchilla Alta");
         }
 
         private async void BtnCanelonesC_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Fonto santa rosa");
+            await TextToSpeech.SpeakAsync("Fonto Santa Rosa");
         }
 
         private async void BtnCanelonesD_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Pizzorno family estates");
+            await TextToSpeech.SpeakAsync("Pizzorno Family Estates");
         }
 
         private async void BtnCanelonesE_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Viña varela zarranz");
+            await TextToSpeech.SpeakAsync("Viña Varela Zarranz");
         }
     }
 }
