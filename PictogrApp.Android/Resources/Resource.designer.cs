@@ -16754,517 +16754,802 @@ namespace PictogrApp.Droid
 			public const int Colonia = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int CV1 = 2131165358;
+			public const int Comidas = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int CV10 = 2131165359;
+			public const int CV1 = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int CV11 = 2131165360;
+			public const int CV10 = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int CV12 = 2131165361;
+			public const int CV11 = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int CV13 = 2131165362;
+			public const int CV12 = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int CV14 = 2131165363;
+			public const int CV13 = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int CV15 = 2131165364;
+			public const int CV14 = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int CV16 = 2131165365;
+			public const int CV15 = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int CV17 = 2131165366;
+			public const int CV16 = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int CV18 = 2131165367;
+			public const int CV17 = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int CV19 = 2131165368;
+			public const int CV18 = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int CV2 = 2131165369;
+			public const int CV19 = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int CV20 = 2131165370;
+			public const int CV2 = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int CV21 = 2131165371;
+			public const int CV20 = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int CV3 = 2131165372;
+			public const int CV21 = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int CV4 = 2131165373;
+			public const int CV3 = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int CV5 = 2131165374;
+			public const int CV4 = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int CV6 = 2131165375;
+			public const int CV5 = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int CV7 = 2131165376;
+			public const int CV6 = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int CV8 = 2131165377;
+			public const int CV7 = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int CV9 = 2131165378;
+			public const int CV8 = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int D1 = 2131165379;
+			public const int CV9 = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int D10 = 2131165380;
+			public const int D1 = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int D11 = 2131165381;
+			public const int D10 = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int D12 = 2131165382;
+			public const int D11 = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int D13 = 2131165383;
+			public const int D12 = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int D14 = 2131165384;
+			public const int D13 = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int D15 = 2131165385;
+			public const int D14 = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int D16 = 2131165386;
+			public const int D15 = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int D2 = 2131165387;
+			public const int D16 = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int D3 = 2131165388;
+			public const int D2 = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int D4 = 2131165389;
+			public const int D3 = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int D5 = 2131165390;
+			public const int D4 = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int D6 = 2131165391;
+			public const int D5 = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int D7 = 2131165392;
+			public const int D6 = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int D8 = 2131165393;
+			public const int D7 = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int D9 = 2131165394;
+			public const int D8 = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int Deportes = 2131165395;
+			public const int D9 = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int design_fab_background = 2131165396;
+			public const int DepAIglesiaSanEugenio_ArtigasExterior = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int design_ic_visibility = 2131165397;
+			public const int DepAJefaturaDePolicias_Artigas = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int design_ic_visibility_off = 2131165398;
+			public const int DepAplazaBatlle_Artigas = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int design_password_eye = 2131165399;
+			public const int DepAVirgenDeLos33_Artigas = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int design_snackbar_background = 2131165400;
+			public const int DepBBalnearioArgetino_Canelones = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int Durazno = 2131165401;
+			public const int DepBCuchillaAlta_Canelones = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int E1 = 2131165402;
+			public const int DepBFontoSantaRosa_Canelones = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int E10 = 2131165403;
+			public const int DepBPizzornoFamilyEstates_Canelones = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int E11 = 2131165404;
+			public const int DepBViniaVarelaZarranz_Canelones = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int E12 = 2131165405;
+			public const int DepCCatedralNuestraSenioraySanRafael_CerroLargo = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int E13 = 2131165406;
+			public const int DepCFuenteDeLos200Anios_CerroLargo = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int E14 = 2131165407;
+			public const int DepCLagoMerin_CerroLargo = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int E15 = 2131165408;
+			public const int DepCMuseoHistoricoGeneralAparicioSaravia_CerroLargo = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int E16 = 2131165409;
+			public const int DepCMuseoPostaDelChuy_CerroLargo = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int E17 = 2131165410;
+			public const int DepDCalleDeLosSuspiros_Colonia = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int E18 = 2131165411;
+			public const int DepDFaro_Colonia = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int E19 = 2131165412;
+			public const int DepDGranjaArena_Colonia = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int E2 = 2131165413;
+			public const int DepDMuelleDelPuertoDeYates_Colonia = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int E3 = 2131165414;
+			public const int DepDPlazaDeLosToros_Colonia = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int E4 = 2131165415;
+			public const int DepEAguaClara_Durazno = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int E5 = 2131165416;
+			public const int DepEBioparqueWashington_Durazno = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int E6 = 2131165417;
+			public const int DepEGrutaDeReyles_Durazno = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int E8 = 2131165418;
+			public const int DepEIglesiaSanPedro_Durazno = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int E9 = 2131165419;
+			public const int DepEMuseoHistorico_Durazno = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int Emociones = 2131165420;
+			public const int DepFBalnearioDonRicardo_Flores = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int F1 = 2131165421;
+			public const int DepFEcoparqueTalice_Flores = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int F10 = 2131165422;
+			public const int DepFParqueCentenario_Flores = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int F11 = 2131165423;
+			public const int DepFPlazaConstitucion_Flores = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int F12 = 2131165424;
+			public const int DepFPlazaWalterEcheverria_Flores = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int F13 = 2131165425;
+			public const int DepGCapillaSanCono_Florida = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int F14 = 2131165426;
+			public const int DepGCatedralDeFlorida_Florida = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int F15 = 2131165427;
+			public const int DepGLaindiaSomoNaturaleza_Florida = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int F16 = 2131165428;
+			public const int DepGParqueRobaina_Florida = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int F17 = 2131165429;
+			public const int DepGPradoPiedraAlta_Florida = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int F18 = 2131165430;
+			public const int DepHCatedralDeMinas_Lavalleja = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int F19 = 2131165431;
+			public const int DepHCerroArequita_Lavalleja = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int F2 = 2131165432;
+			public const int DepHMuseoDeReplicasEnMiniaturas_Lavalleja = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int F20 = 2131165433;
+			public const int DepHParqueSaltoDelPenitente_Lavalleja = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int F21 = 2131165434;
+			public const int DepHPlazaLibertad_Lavalleja = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int F22 = 2131165435;
+			public const int DepICastilloPittamiglio_Maldonado = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int F3 = 2131165436;
+			public const int DepIMiradorPuntaBallena_Maldonado = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int F4 = 2131165437;
+			public const int DepIMuseoDelMar_Maldonado = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int F5 = 2131165438;
+			public const int DepIPlazaPortezuelo_Maldonado = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int F6 = 2131165439;
+			public const int DepIPuenteLagunaGarzon_Maldonado = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int F7 = 2131165440;
+			public const int DepJMercadoAgricola_Montevideo = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int F8 = 2131165441;
+			public const int DepJMontevideoSign_Montevideo = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int F9 = 2131165442;
+			public const int DepJMuseoDeLosAndes_Montevideo = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int Familia = 2131165443;
+			public const int DepJRamblaDeMontevideo_Montevideo = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int Flores = 2131165444;
+			public const int DepJTeatroSolis_Montevideo = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int Florida = 2131165445;
+			public const int DepKCasaDeCultura_Paysandu = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int Frutas = 2131165446;
-			
-			// aapt resource value: 0x7F07010E
-			public const int icon_about = 2131165454;
+			public const int DepKObelisco_Paysandu = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_arrow_down_24dp = 2131165447;
+			public const int DepKPlaya_Paysandu = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_clock_black_24dp = 2131165448;
+			public const int DepKShoppingTerminal_Paysandu = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_keyboard_black_24dp = 2131165449;
+			public const int DepKTermasDeGuaviyu_Paysandu = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mtrl_checked_circle = 2131165450;
+			public const int DepLBalnearioLasCanias_RioNegro = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mtrl_chip_checked_black = 2131165451;
+			public const int DepLMuseoDeLaRevolucionIndustrial_RioNegro = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mtrl_chip_checked_circle = 2131165452;
+			public const int DepLParqueRoosevelt_RioNegro = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mtrl_chip_close_circle = 2131165453;
+			public const int DepLPuertoViejo_RioNegro = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int DepLTeatroMiguelYoung_RioNegro = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int J1 = 2131165455;
+			public const int DepMAutodromoEduardoPCabrera_Rivera = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int J10 = 2131165456;
+			public const int DepMParqueGranBretania_Rivera = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int J11 = 2131165457;
+			public const int DepMPlazaFlores_Rivera = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int J12 = 2131165458;
+			public const int DepMPlazaInternacional_Rivera = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int J13 = 2131165459;
+			public const int DepMValleDeLunarejo_Rivera = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int J14 = 2131165460;
+			public const int DepN0FortalezaSantaTeresa_Rocha = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int J15 = 2131165461;
+			public const int DepN0MonteDeOmbues_Rocha = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int J2 = 2131165462;
+			public const int DepN0PlayaGrande_Rocha = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int J3 = 2131165463;
+			public const int DepN0PlayaLaMoza_Rocha = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int J4 = 2131165464;
+			public const int DepN0PuntaDelDiablo_Rocha = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int J5 = 2131165465;
+			public const int DepN1GrutaDelPadrePio_Salto = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int J6 = 2131165466;
+			public const int DepN1PosadaDelSigloXIX_Salto = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int J7 = 2131165467;
+			public const int DepN1RepresaDeSalto_Salto = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int J8 = 2131165468;
+			public const int DepN1TermasDeArapey_Salto = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int J9 = 2131165469;
+			public const int DepN1TermasDeDaiman_Salto = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int Juguetes = 2131165470;
+			public const int DepN2CatedralSanJoseDeMayo_SanJose = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int Lavalleja = 2131165471;
+			public const int DepN2MuseoDepartamental_SanJose = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int LeekSolutionsLogo = 2131165472;
+			public const int DepN2Peatonal_SanJose = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int Maldonado = 2131165473;
+			public const int DepN2SierrasDeMahoma_SanJose = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int material_cursor_drawable = 2131165474;
+			public const int DepN2TeatroBaccio_SanJose = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int material_ic_calendar_black_24dp = 2131165475;
+			public const int DepN3BalnearioConcordia_Soriano = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int material_ic_clear_black_24dp = 2131165476;
+			public const int DepN3CastilloDeMaua_Soriano = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int material_ic_edit_black_24dp = 2131165477;
+			public const int DepN3Catedral_Soriano = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165478;
+			public const int DepN3Rambla_Soriano = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165479;
+			public const int DepN3Timbo_Soriano = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165480;
+			public const int DepN4GrutaDeLosHelechos_Tacuarembo = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165481;
+			public const int DepN4MuseoCarlosGardel_Tacuarembo = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165482;
+			public const int DepN4MuseoDeArtesVisuales_Tacuarembo = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165483;
+			public const int DepN4MuseoDelIndioyDelGauchoEscobarWashington_Tacuarembo = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int Montevideo = 2131165484;
+			public const int DepN4PozoHondo_Tacuarembo = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mtrl_dialog_background = 2131165485;
+			public const int DepN5ArcoBicentenarioDeArtigas_TreintaYTres = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mtrl_dropdown_arrow = 2131165486;
+			public const int DepN5AventuraNativa_TreintaYTres = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mtrl_ic_arrow_drop_down = 2131165487;
+			public const int DepN5ObeliscoFundadores_TreintaYTres = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mtrl_ic_arrow_drop_up = 2131165488;
+			public const int DepN5Plaza19DeAbril_TreintaYTres = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mtrl_ic_cancel = 2131165489;
+			public const int DepN5QuebradaDeLosCuervos_TreintaYTres = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mtrl_ic_error = 2131165490;
+			public const int Deportes = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mtrl_navigation_bar_item_background = 2131165491;
+			public const int design_fab_background = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mtrl_popupmenu_background = 2131165492;
+			public const int design_ic_visibility = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mtrl_popupmenu_background_dark = 2131165493;
+			public const int design_ic_visibility_off = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mtrl_tabs_default_indicator = 2131165494;
+			public const int design_password_eye = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int navigation_empty_icon = 2131165495;
+			public const int design_snackbar_background = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int notification_action_background = 2131165496;
+			public const int Durazno = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int notification_bg = 2131165497;
+			public const int E1 = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int notification_bg_low = 2131165498;
+			public const int E10 = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int notification_bg_low_normal = 2131165499;
+			public const int E11 = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int notification_bg_low_pressed = 2131165500;
+			public const int E12 = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int notification_bg_normal = 2131165501;
+			public const int E13 = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int notification_bg_normal_pressed = 2131165502;
+			public const int E14 = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int notification_icon_background = 2131165503;
+			public const int E15 = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int notification_template_icon_bg = 2131165504;
+			public const int E16 = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int notification_template_icon_low_bg = 2131165505;
+			public const int E17 = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int notification_tile_bg = 2131165506;
+			public const int E18 = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int notify_panel_notification_icon_bg = 2131165507;
+			public const int E19 = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int Paysandu = 2131165508;
+			public const int E2 = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int preference_list_divider_material = 2131165509;
+			public const int E3 = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int RioNegro = 2131165510;
+			public const int E4 = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int Rivera = 2131165511;
+			public const int E5 = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int Rocha = 2131165512;
+			public const int E6 = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int Salto = 2131165513;
+			public const int E8 = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int SanJose = 2131165514;
+			public const int E9 = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int Soriano = 2131165515;
+			public const int Emociones = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int T1 = 2131165516;
+			public const int F1 = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int T4 = 2131165517;
+			public const int F10 = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int T5 = 2131165518;
+			public const int F11 = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int T6 = 2131165519;
+			public const int F12 = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int T7 = 2131165520;
+			public const int F13 = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int Tacuarembo = 2131165521;
+			public const int F14 = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int test_custom_background = 2131165522;
+			public const int F15 = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int Tiempo = 2131165523;
+			public const int F16 = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int tooltip_frame_dark = 2131165524;
+			public const int F17 = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int tooltip_frame_light = 2131165525;
+			public const int F18 = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int TreintaYTres = 2131165526;
+			public const int F19 = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int Uruguay = 2131165527;
+			public const int F2 = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int Verduras = 2131165528;
+			public const int F20 = 2131165528;
+			
+			// aapt resource value: 0x7F070159
+			public const int F21 = 2131165529;
+			
+			// aapt resource value: 0x7F07015A
+			public const int F22 = 2131165530;
+			
+			// aapt resource value: 0x7F07015B
+			public const int F3 = 2131165531;
+			
+			// aapt resource value: 0x7F07015C
+			public const int F4 = 2131165532;
+			
+			// aapt resource value: 0x7F07015D
+			public const int F5 = 2131165533;
+			
+			// aapt resource value: 0x7F07015E
+			public const int F6 = 2131165534;
+			
+			// aapt resource value: 0x7F07015F
+			public const int F7 = 2131165535;
+			
+			// aapt resource value: 0x7F070160
+			public const int F8 = 2131165536;
+			
+			// aapt resource value: 0x7F070161
+			public const int F9 = 2131165537;
+			
+			// aapt resource value: 0x7F070162
+			public const int Familia = 2131165538;
+			
+			// aapt resource value: 0x7F070163
+			public const int Flores = 2131165539;
+			
+			// aapt resource value: 0x7F070164
+			public const int Florida = 2131165540;
+			
+			// aapt resource value: 0x7F070165
+			public const int Frutas = 2131165541;
+			
+			// aapt resource value: 0x7F07016D
+			public const int icon_about = 2131165549;
+			
+			// aapt resource value: 0x7F070166
+			public const int ic_arrow_down_24dp = 2131165542;
+			
+			// aapt resource value: 0x7F070167
+			public const int ic_clock_black_24dp = 2131165543;
+			
+			// aapt resource value: 0x7F070168
+			public const int ic_keyboard_black_24dp = 2131165544;
+			
+			// aapt resource value: 0x7F070169
+			public const int ic_mtrl_checked_circle = 2131165545;
+			
+			// aapt resource value: 0x7F07016A
+			public const int ic_mtrl_chip_checked_black = 2131165546;
+			
+			// aapt resource value: 0x7F07016B
+			public const int ic_mtrl_chip_checked_circle = 2131165547;
+			
+			// aapt resource value: 0x7F07016C
+			public const int ic_mtrl_chip_close_circle = 2131165548;
+			
+			// aapt resource value: 0x7F07016E
+			public const int J1 = 2131165550;
+			
+			// aapt resource value: 0x7F07016F
+			public const int J10 = 2131165551;
+			
+			// aapt resource value: 0x7F070170
+			public const int J11 = 2131165552;
+			
+			// aapt resource value: 0x7F070171
+			public const int J12 = 2131165553;
+			
+			// aapt resource value: 0x7F070172
+			public const int J13 = 2131165554;
+			
+			// aapt resource value: 0x7F070173
+			public const int J14 = 2131165555;
+			
+			// aapt resource value: 0x7F070174
+			public const int J15 = 2131165556;
+			
+			// aapt resource value: 0x7F070175
+			public const int J2 = 2131165557;
+			
+			// aapt resource value: 0x7F070176
+			public const int J3 = 2131165558;
+			
+			// aapt resource value: 0x7F070177
+			public const int J4 = 2131165559;
+			
+			// aapt resource value: 0x7F070178
+			public const int J5 = 2131165560;
+			
+			// aapt resource value: 0x7F070179
+			public const int J6 = 2131165561;
+			
+			// aapt resource value: 0x7F07017A
+			public const int J7 = 2131165562;
+			
+			// aapt resource value: 0x7F07017B
+			public const int J8 = 2131165563;
+			
+			// aapt resource value: 0x7F07017C
+			public const int J9 = 2131165564;
+			
+			// aapt resource value: 0x7F07017D
+			public const int Juguetes = 2131165565;
+			
+			// aapt resource value: 0x7F07017E
+			public const int Lavalleja = 2131165566;
+			
+			// aapt resource value: 0x7F07017F
+			public const int LeekSolutionsLogo = 2131165567;
+			
+			// aapt resource value: 0x7F070180
+			public const int Maldonado = 2131165568;
+			
+			// aapt resource value: 0x7F070181
+			public const int material_cursor_drawable = 2131165569;
+			
+			// aapt resource value: 0x7F070182
+			public const int material_ic_calendar_black_24dp = 2131165570;
+			
+			// aapt resource value: 0x7F070183
+			public const int material_ic_clear_black_24dp = 2131165571;
+			
+			// aapt resource value: 0x7F070184
+			public const int material_ic_edit_black_24dp = 2131165572;
+			
+			// aapt resource value: 0x7F070185
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165573;
+			
+			// aapt resource value: 0x7F070186
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165574;
+			
+			// aapt resource value: 0x7F070187
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165575;
+			
+			// aapt resource value: 0x7F070188
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165576;
+			
+			// aapt resource value: 0x7F070189
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165577;
+			
+			// aapt resource value: 0x7F07018A
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165578;
+			
+			// aapt resource value: 0x7F07018B
+			public const int Montevideo = 2131165579;
+			
+			// aapt resource value: 0x7F07018C
+			public const int mtrl_dialog_background = 2131165580;
+			
+			// aapt resource value: 0x7F07018D
+			public const int mtrl_dropdown_arrow = 2131165581;
+			
+			// aapt resource value: 0x7F07018E
+			public const int mtrl_ic_arrow_drop_down = 2131165582;
+			
+			// aapt resource value: 0x7F07018F
+			public const int mtrl_ic_arrow_drop_up = 2131165583;
+			
+			// aapt resource value: 0x7F070190
+			public const int mtrl_ic_cancel = 2131165584;
+			
+			// aapt resource value: 0x7F070191
+			public const int mtrl_ic_error = 2131165585;
+			
+			// aapt resource value: 0x7F070192
+			public const int mtrl_navigation_bar_item_background = 2131165586;
+			
+			// aapt resource value: 0x7F070193
+			public const int mtrl_popupmenu_background = 2131165587;
+			
+			// aapt resource value: 0x7F070194
+			public const int mtrl_popupmenu_background_dark = 2131165588;
+			
+			// aapt resource value: 0x7F070195
+			public const int mtrl_tabs_default_indicator = 2131165589;
+			
+			// aapt resource value: 0x7F070196
+			public const int navigation_empty_icon = 2131165590;
+			
+			// aapt resource value: 0x7F070197
+			public const int notification_action_background = 2131165591;
+			
+			// aapt resource value: 0x7F070198
+			public const int notification_bg = 2131165592;
+			
+			// aapt resource value: 0x7F070199
+			public const int notification_bg_low = 2131165593;
+			
+			// aapt resource value: 0x7F07019A
+			public const int notification_bg_low_normal = 2131165594;
+			
+			// aapt resource value: 0x7F07019B
+			public const int notification_bg_low_pressed = 2131165595;
+			
+			// aapt resource value: 0x7F07019C
+			public const int notification_bg_normal = 2131165596;
+			
+			// aapt resource value: 0x7F07019D
+			public const int notification_bg_normal_pressed = 2131165597;
+			
+			// aapt resource value: 0x7F07019E
+			public const int notification_icon_background = 2131165598;
+			
+			// aapt resource value: 0x7F07019F
+			public const int notification_template_icon_bg = 2131165599;
+			
+			// aapt resource value: 0x7F0701A0
+			public const int notification_template_icon_low_bg = 2131165600;
+			
+			// aapt resource value: 0x7F0701A1
+			public const int notification_tile_bg = 2131165601;
+			
+			// aapt resource value: 0x7F0701A2
+			public const int notify_panel_notification_icon_bg = 2131165602;
+			
+			// aapt resource value: 0x7F0701A3
+			public const int Paysandu = 2131165603;
+			
+			// aapt resource value: 0x7F0701A4
+			public const int preference_list_divider_material = 2131165604;
+			
+			// aapt resource value: 0x7F0701A5
+			public const int RioNegro = 2131165605;
+			
+			// aapt resource value: 0x7F0701A6
+			public const int Rivera = 2131165606;
+			
+			// aapt resource value: 0x7F0701A7
+			public const int Rocha = 2131165607;
+			
+			// aapt resource value: 0x7F0701A8
+			public const int Salto = 2131165608;
+			
+			// aapt resource value: 0x7F0701A9
+			public const int SanJose = 2131165609;
+			
+			// aapt resource value: 0x7F0701AA
+			public const int Soriano = 2131165610;
+			
+			// aapt resource value: 0x7F0701AB
+			public const int T1 = 2131165611;
+			
+			// aapt resource value: 0x7F0701AC
+			public const int T4 = 2131165612;
+			
+			// aapt resource value: 0x7F0701AD
+			public const int T5 = 2131165613;
+			
+			// aapt resource value: 0x7F0701AE
+			public const int T6 = 2131165614;
+			
+			// aapt resource value: 0x7F0701AF
+			public const int T7 = 2131165615;
+			
+			// aapt resource value: 0x7F0701B0
+			public const int Tacuarembo = 2131165616;
+			
+			// aapt resource value: 0x7F0701B1
+			public const int test_custom_background = 2131165617;
+			
+			// aapt resource value: 0x7F0701B2
+			public const int Tiempo = 2131165618;
+			
+			// aapt resource value: 0x7F0701B3
+			public const int tooltip_frame_dark = 2131165619;
+			
+			// aapt resource value: 0x7F0701B4
+			public const int tooltip_frame_light = 2131165620;
+			
+			// aapt resource value: 0x7F0701B5
+			public const int TreintaYTres = 2131165621;
+			
+			// aapt resource value: 0x7F0701B6
+			public const int Uruguay = 2131165622;
+			
+			// aapt resource value: 0x7F0701B7
+			public const int Verduras = 2131165623;
 			
 			static Drawable()
 			{
