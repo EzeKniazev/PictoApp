@@ -16,72 +16,108 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTomarAgua"  CornerRadius="15" BackgroundColor="#97d5e0" Source="A1.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTomarAgua"  CornerRadius="15" BackgroundColor="#97d5e0" Source="A1.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTomarAgua_Clicked">
-                                </ImageButton>
-
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnComer" CornerRadius="15" BackgroundColor="#97d5e0" Source="A2.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnComer_Clicked">
-                                </ImageButton>
-
-                        </Grid>
-
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnDormir" CornerRadius="15" BackgroundColor="#97d5e0" Source="A3.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDormir_Clicked">
-                                </ImageButton>
-                               
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnElegir" CornerRadius="15" BackgroundColor="#97d5e0" Source="A4.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnElegir_Clicked">
-                                </ImageButton>
-                       
-                        </Grid>
-
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnEscucharMusica" CornerRadius="15" BackgroundColor="#97d5e0" Source="A5.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnEscucharMusica_Clicked">
-                                </ImageButton>
-
-                                 <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSentarse" CornerRadius="15" BackgroundColor="#97d5e0" Source="A13.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSentarse_Clicked">
-                                </ImageButton>
-
-                        </Grid>
-
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnHacerCaca" CornerRadius="15" BackgroundColor="#97d5e0" Source="A7.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHacerCaca_Clicked">
-                                </ImageButton>
-                               
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnHacerPis" CornerRadius="15" BackgroundColor="#97d5e0" Source="A8.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHacerPis_Clicked">
-                                </ImageButton>
-
-                        </Grid>
-
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMirar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A9.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMirar_Clicked">
-                                </ImageButton>
-                                
-                                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMirarTelevision" CornerRadius="15" BackgroundColor="#97d5e0" Source="A10.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMirarTelevision_Clicked">
-                                </ImageButton>
-
-                        </Grid>
-
-                        <Grid Margin="30,20" RowSpacing="20">
-
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnOrdenar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A11.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnOrdenar_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPintar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A12.png"
-                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPintar_Clicked">
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTomarJugo" CornerRadius="15" BackgroundColor="#97d5e0" Source="A14.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTomarJugo_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnHacerCaca" CornerRadius="15" BackgroundColor="#97d5e0" Source="A7.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHacerCaca_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnHacerPis" CornerRadius="15" BackgroundColor="#97d5e0" Source="A8.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnHacerPis_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMirar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A9.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMirar_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMirarTele" CornerRadius="15" BackgroundColor="#97d5e0" Source="A10.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMirarTele_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnMeAyudas" CornerRadius="15" BackgroundColor="#97d5e0" Source="A11.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMeAyudas_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnQuieroDormir" CornerRadius="15" BackgroundColor="#97d5e0" Source="A3.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroDormir_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnQuieroComer" CornerRadius="15" BackgroundColor="#97d5e0" Source="A2.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroComer_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnQuieroPintar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A12.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroPintar_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnQuieroEscuchar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A5.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroEscuchar_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnQuieroSilencio" CornerRadius="15" BackgroundColor="#97d5e0" Source="A15.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroSilencio_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnQuieroSentarme" CornerRadius="15" BackgroundColor="#97d5e0" Source="A13.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnQuieroSentarme_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnDondeEsta" CornerRadius="15" BackgroundColor="#97d5e0" Source="A16.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnDondeEsta_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnVerdad" CornerRadius="15" BackgroundColor="#97d5e0" Source="A17.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnVerdad_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnMentira" CornerRadius="15" BackgroundColor="#97d5e0" Source="A18.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnMentira_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPuedoJugar" CornerRadius="15" BackgroundColor="#97d5e0" Source="A19.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPuedoJugar_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPuedoTocarlo" CornerRadius="15" BackgroundColor="#97d5e0" Source="A20.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPuedoTocarlo_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnYoLoLlevo" CornerRadius="15" BackgroundColor="#97d5e0" Source="A21.png"
+                                             WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnYoLoLlevo_Clicked">
                             </ImageButton>
 
                         </Grid>

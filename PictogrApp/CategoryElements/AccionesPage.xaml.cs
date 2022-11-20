@@ -16,65 +16,81 @@ namespace PictogrApp.CategoryElements
         {
             InitializeComponent();
         }
-
         private async void BtnTomarAgua_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero tomar Agua");
+            await TextToSpeech.SpeakAsync("Quiero Tomar Agua");
         }
-
-        private async void BtnComer_Clicked(object sender, EventArgs e)
+        private async void BtnTomarJugo_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero comer");
+            await TextToSpeech.SpeakAsync("Quiero Tomar Jugo");
         }
-
-        private async void BtnDormir_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Quiero dormir");
-        }
-
-        private async void BtnElegir_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Eso es verdadero");
-        }
-
-        private async void BtnEscucharMusica_Clicked(object sender, EventArgs e)
-        {
-            await TextToSpeech.SpeakAsync("Quiero escuchar música");
-        }
-
         private async void BtnHacerCaca_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero hacer caca");
+            await TextToSpeech.SpeakAsync("Quiero Hacer Caca");
         }
-
         private async void BtnHacerPis_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero hacer pis");
+            await TextToSpeech.SpeakAsync("Quiero Hacer Pis");
         }
-
         private async void BtnMirar_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Mirar");
+            await TextToSpeech.SpeakAsync("Quiero Mirar");
         }
-
-        private async void BtnMirarTelevision_Clicked(object sender, EventArgs e)
+        private async void BtnMirarTele_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero mirar televisión");
+            await TextToSpeech.SpeakAsync("Quiero Mirar Tele");
         }
-
-        private async void BtnOrdenar_Clicked(object sender, EventArgs e)
+        private async void BtnMeAyudas_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("¿Me ayudas a ordenar?");
+            await TextToSpeech.SpeakAsync("¿Me Ayudas a Ordenar?");
         }
-
-        private async void BtnPintar_Clicked(object sender, EventArgs e)
+        private async void BtnQuieroDormir_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero pintar");
+            await TextToSpeech.SpeakAsync("Quiero Dormir");
         }
-
-        private async void BtnSentarse_Clicked(object sender, EventArgs e)
+        private async void BtnQuieroComer_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero sentarme");
+            await TextToSpeech.SpeakAsync("Quiero Comer");
+        }
+        private async void BtnQuieroPintar_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Quiero Pintar");
+        }
+        private async void BtnQuieroEscuchar_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Quiero Escuchar Música");
+        }
+        private async void BtnQuieroSilencio_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("¿Puedes Hacer Silencio?");
+        }
+        private async void BtnQuieroSentarme_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Quiero Sentarme");
+        }
+        private async void BtnDondeEsta_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("¿Donde Esta?");
+        }
+        private async void BtnVerdad_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Eso es Verdad");
+        }
+        private async void BtnMentira_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Eso es Mentira");
+        }
+        private async void BtnPuedoJugar_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("¿Puedo Jugar?");
+        }
+        private async void BtnPuedoTocarlo_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("¿Puedo Tocar Eso?");
+        }
+        private async void BtnYoLoLlevo_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Yo lo Llevo");
         }
     }
 }

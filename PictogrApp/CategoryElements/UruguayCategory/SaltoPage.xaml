@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Salto" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Salto" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN1GrutaDelPadrePio_Salto.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoA" CornerRadius="15" BackgroundColor="#97d5e0" Source="STOGDPP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSaltoA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSaltoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN1PosadaDelSigloXIX_Salto.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSaltoB" CornerRadius="15" BackgroundColor="#97d5e0" Source="STOPDS.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSaltoB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN1RepresaDeSalto_Salto.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoC" CornerRadius="15" BackgroundColor="#97d5e0" Source="STORDS.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSaltoC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSaltoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN1TermasDeArapey_Salto.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnSaltoD" CornerRadius="15" BackgroundColor="#97d5e0" Source="STOTDA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSaltoD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN1TermasDeDaiman_Salto.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnSaltoE" CornerRadius="15" BackgroundColor="#97d5e0" Source="STOTDD.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnSaltoE_Clicked">
                             </ImageButton>
 

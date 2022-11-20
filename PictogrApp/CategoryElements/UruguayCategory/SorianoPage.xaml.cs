@@ -38,7 +38,7 @@ namespace PictogrApp.CategoryElements.UruguayCategory
 
         private async void BtnSorianoE_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Quiero ir a Timbo");
+            await TextToSpeech.SpeakAsync("Timbó de Villa Soriano");
         }
     }
 }

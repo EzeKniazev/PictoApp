@@ -24,6 +24,14 @@ namespace PictogrApp.CategoryElements
         {
             await TextToSpeech.SpeakAsync("Agua con Gas");
         }
+        private async void BtnJugo_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Jugo");
+        }
+        private async void BtnLicuado_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Licuado");
+        }
         private async void BtnRefrescos_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("Refresco");

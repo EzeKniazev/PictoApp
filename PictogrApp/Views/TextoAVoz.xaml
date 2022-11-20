@@ -9,7 +9,7 @@
                    HorizontalTextAlignment="Start" 
                    TextColor="White" 
                    FontSize="22"
-                   FontAttributes="Bold"/>
+                   FontAttributes="Bold" HorizontalOptions="Center"/>
             </Frame>
 
             <Entry x:Name="TxtSpeech" Placeholder="Escribí lo que quieras decir" PlaceholderColor="DarkGray" TextColor="Black"/>

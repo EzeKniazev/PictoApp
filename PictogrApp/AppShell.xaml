@@ -66,20 +66,21 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <FlyoutItem Title="INICIO" Icon="icon_about.png">
+    <FlyoutItem Title="INICIO" Icon="Inicio.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:CategoriesPage}" />
     </FlyoutItem>
+    
+<!-- <FlyoutItem Title="SESIÓN" Icon="Sesion.png">
+        <ShellContent Route="StartPage" ContentTemplate="{DataTemplate Local1:StartPage}" />
+    </FlyoutItem>   -->
 
-    <FlyoutItem Title="Agregar Categoría" Icon="icon_about.png">
-        <ShellContent Route="ABMCats" ContentTemplate="{DataTemplate Local2:ABMCats}" />
-    </FlyoutItem>
-    <FlyoutItem Title="Agregar Pictograma" Icon="icon_about.png">
-        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate Local2:ABMPictos}"  />
-    </FlyoutItem>
-    <FlyoutItem Title="Texto a Voz" Icon="icon_about.png">
+    <FlyoutItem Title="TEXTO A VOZ" Icon="TextAVoz.png">
         <ShellContent Route="CategoriesPage" ContentTemplate="{DataTemplate Local2:TextoAVoz}" />
     </FlyoutItem>
-
-    <MenuItem Text="Salir" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
-    </MenuItem>
+    <FlyoutItem Title="AGREGAR CATEGORÍA" Icon="Categorias.png">
+        <ShellContent Route="ABMCats" ContentTemplate="{DataTemplate Local2:ABMCats}" />
+    </FlyoutItem>
+    <FlyoutItem Title="AGREGAR PICTOGRAMA" Icon="Pictogramas.png">
+        <ShellContent Route="ABMPictos" ContentTemplate="{DataTemplate Local2:ABMPictos}"  />
+    </FlyoutItem>
 </Shell>

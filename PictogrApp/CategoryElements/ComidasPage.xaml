@@ -39,6 +39,17 @@
                         </Grid>
                         <Grid Margin="30,20" RowSpacing="20">
 
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnJugo" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF17.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnJugo_Clicked">
+                            </ImageButton>
+
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtneLicuado" CornerRadius="15" BackgroundColor="#97d5e0" Source="CF16.png"
+                                         WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLicuado_Clicked">
+                            </ImageButton>
+
+                        </Grid>
+                        <Grid Margin="30,20" RowSpacing="20">
+
                             <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRefrescos" CornerRadius="15" BackgroundColor="#97d5e0" Source="C41.png"
                                              WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRefrescos_Clicked">
                             </ImageButton>

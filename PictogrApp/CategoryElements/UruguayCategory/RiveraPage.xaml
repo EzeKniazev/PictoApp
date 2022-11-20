@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Rivera" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Rivera" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepMAutodromoEduardo.PCabrera_Rivera.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraA" CornerRadius="15" BackgroundColor="#97d5e0" Source="RVAAE.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRiveraA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRiveraB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepMParqueGranBretaña_Rivera.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRiveraB" CornerRadius="15" BackgroundColor="#97d5e0" Source="RVAPGB.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRiveraB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepMPlazaFlores_Rivera.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraC" CornerRadius="15" BackgroundColor="#97d5e0" Source="RVAPF.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRiveraC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRiveraD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepMPlazaInternacional_Rivera.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRiveraD" CornerRadius="15" BackgroundColor="#97d5e0" Source="RVAPI.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRiveraD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepMValleDeLunarejo_Rivera.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRiveraE" CornerRadius="15" BackgroundColor="#97d5e0" Source="RVAVDL.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRiveraE_Clicked">
                             </ImageButton>
 

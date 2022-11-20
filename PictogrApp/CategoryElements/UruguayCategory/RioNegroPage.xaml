@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Rio Negro" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Río Negro" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepLBalnearioLasCañas_RioNegro.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroA" CornerRadius="15" BackgroundColor="#97d5e0" Source="RNBLC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRioNegroA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRioNegroB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepLMuseoDeLaRevolucionIndustrial_RioNegro.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRioNegroB" CornerRadius="15" BackgroundColor="#97d5e0" Source="RNMDLR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRioNegroB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepLParqueRoosevelt_RioNegro.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroC" CornerRadius="15" BackgroundColor="#97d5e0" Source="RNPR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRioNegroC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRioNegroD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepLPuertoViejo_RioNegro.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnRioNegroD" CornerRadius="15" BackgroundColor="#97d5e0" Source="RNPV.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRioNegroD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepLTeatroMiguelYoung_RioNegro.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnRioNegroE" CornerRadius="15" BackgroundColor="#97d5e0" Source="RNTMY.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnRioNegroE_Clicked">
                             </ImageButton>
 

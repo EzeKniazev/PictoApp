@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Canelones" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Canelones" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepBBalnearioArgentino_Canelones.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesA" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLSBA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCanelonesA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCanelonesB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepBCuchillaAlta_Canelones.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCanelonesB" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLSCA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCanelonesB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepBFontoSantaRosa_Canelones.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesC" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLSFSR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCanelonesC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCanelonesD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepBPizzornoFamilyEstates_Canelones.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnCanelonesD" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLSPFE.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCanelonesD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepBViñaVarelaZarranz_Canelones.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnCanelonesE" CornerRadius="15" BackgroundColor="#97d5e0" Source="CLSVVZ.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnCanelonesE_Clicked">
                             </ImageButton>
 

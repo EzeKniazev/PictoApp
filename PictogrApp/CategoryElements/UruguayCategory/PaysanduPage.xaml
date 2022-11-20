@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Paysandu" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Paysandú" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKCasaDeCultura_Paysandu.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduA" CornerRadius="15" BackgroundColor="#97d5e0" Source="PDUCDC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKObelisco_Paysandu.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduB" CornerRadius="15" BackgroundColor="#97d5e0" Source="PDUO.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKPlaya_Paysandu.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduC" CornerRadius="15" BackgroundColor="#97d5e0" Source="PDUP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKShoppingTerminal_Paysandu.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnPaysanduD" CornerRadius="15" BackgroundColor="#97d5e0" Source="PDUST.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepKTermasDeGuaviyu_Paysandu.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnPaysanduE" CornerRadius="15" BackgroundColor="#97d5e0" Source="PDUTDG.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnPaysanduE_Clicked">
                             </ImageButton>
 

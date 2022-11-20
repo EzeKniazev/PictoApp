@@ -18,27 +18,27 @@ namespace PictogrApp.CategoryElements.UruguayCategory
         }
         private async void BtnDuraznoA_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Agua clara");
+            await TextToSpeech.SpeakAsync("Agua Clara");
         }
 
         private async void BtnDuraznoB_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Bioparque washington");
+            await TextToSpeech.SpeakAsync("Bioparque Washington");
         }
 
         private async void BtnDuraznoC_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Gruta de reyles");
+            await TextToSpeech.SpeakAsync("Grutas de Reyles");
         }
 
         private async void BtnDuraznoD_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Iglesia san pedro");
+            await TextToSpeech.SpeakAsync("Iglesia San Pedro");
         }
 
         private async void BtnDuraznoE_Clicked(object sender, EventArgs e)
         {
-            await TextToSpeech.SpeakAsync("Museo historico");
+            await TextToSpeech.SpeakAsync("Museo Historico");
         }
     }
 }

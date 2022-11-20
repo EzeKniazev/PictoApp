@@ -16,14 +16,6 @@ namespace PictogrApp.CategoryElements.ComidasCategory
         {
             InitializeComponent();
         }
-        private async void BtnJugo_Clicked(object sender, EventArgs e)
-            {
-                await TextToSpeech.SpeakAsync("Jugo");
-            }
-            private async void BtnLicuado_Clicked(object sender, EventArgs e)
-            {
-                await TextToSpeech.SpeakAsync("Licuado");
-            }
             #region Frutas - Verduras
             private async void BtnArandanos_Clicked(object sender, EventArgs e)
             {

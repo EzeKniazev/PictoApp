@@ -21,7 +21,10 @@ namespace PictogrApp.Views
             InitializeComponent();
             MostrarDatosPicto();
         }
-
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
         #region Pictogramas
         private void LimpiarPicto()
         {

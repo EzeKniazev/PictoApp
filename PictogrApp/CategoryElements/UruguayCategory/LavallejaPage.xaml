@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Lavalleja" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Lavalleja" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepHCatedralDeMinas_Lavalleja.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaA" CornerRadius="15" BackgroundColor="#97d5e0" Source="LVLJCDM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLavallejaA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLavallejaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepHCerroArequita_Lavalleja.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLavallejaB" CornerRadius="15" BackgroundColor="#97d5e0" Source="LVLJCA.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLavallejaB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepHMuseoDeReplicasEnMiniaturas_Lavalleja.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaC" CornerRadius="15" BackgroundColor="#97d5e0" Source="LVLJMDREM.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLavallejaC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLavallejaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepHPaqueSaltoDelPenitente_Lavalleja.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnLavallejaD" CornerRadius="15" BackgroundColor="#97d5e0" Source="LVLJPSDP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLavallejaD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepHPlazaLibertad_Lavalleja.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnLavallejaE" CornerRadius="15" BackgroundColor="#97d5e0" Source="LVLJPL.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnLavallejaE_Clicked">
                             </ImageButton>
 

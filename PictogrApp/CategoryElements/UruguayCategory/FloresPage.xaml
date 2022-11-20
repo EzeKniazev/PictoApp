@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Flores" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Flores" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFBalnearioDonRicardo_Flores.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresA" CornerRadius="15" BackgroundColor="#97d5e0" Source="FRSBDR.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFEcoparqueTalice_Flores.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresB" CornerRadius="15" BackgroundColor="#97d5e0" Source="FRSET.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFParqueCentenario_Flores.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresC" CornerRadius="15" BackgroundColor="#97d5e0" Source="FRSPC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFPlazaConstitucion_Flores.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnFloresD" CornerRadius="15" BackgroundColor="#97d5e0" Source="FRSPZC.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepFPlazaWalterEcheverria_Flores.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnFloresE" CornerRadius="15" BackgroundColor="#97d5e0" Source="FRSPWE.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnFloresE_Clicked">
                             </ImageButton>
 

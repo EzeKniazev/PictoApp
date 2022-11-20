@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Artigas" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Artigas" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,11 +16,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAIglesiaSanEugenio_Artigas_Exterior.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasA" CornerRadius="15" BackgroundColor="#97d5e0" Source="ARTISE.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAJefaturaDePolicias_Artigas.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasB" CornerRadius="15" BackgroundColor="#97d5e0" Source="ARTJDP.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasB_Clicked">
                             </ImageButton>
 
@@ -28,11 +28,11 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAplazaBatlle_Artigas.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnArtigasC" CornerRadius="15" BackgroundColor="#97d5e0" Source="ARTPB.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepAVirgenDeLos33_Artigas.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnArtigasD" CornerRadius="15" BackgroundColor="#97d5e0" Source="ARTVDL33.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnArtigasD_Clicked">
                             </ImageButton>
 

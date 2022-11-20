@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout>
                 <Frame BackgroundColor="#0c4c8a" Padding="10" CornerRadius="0">
-                    <Label Text="Tacuarembo" HorizontalTextAlignment="Start" TextColor="White" 
+                    <Label Text="Lugares conocidos de Tacuarembó" HorizontalTextAlignment="Start" TextColor="White" 
                            FontSize="22" FontAttributes="Bold" HorizontalOptions="Center">
                     </Label>
                 </Frame>
@@ -16,23 +16,23 @@
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboA" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4GrutaDeLosHelechos_Tacuarembo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboA" CornerRadius="15" BackgroundColor="#97d5e0" Source="TROGDLH.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTacuaremboA_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTacuaremboB" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4MuseoCarlosGardel_Tacuarembo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTacuaremboB" CornerRadius="15" BackgroundColor="#97d5e0" Source="TROMCG.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTacuaremboB_Clicked">
                             </ImageButton>
-<!--hola-->
+
                         </Grid>
 
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboC" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4MuseoDeArtesVisuales_Tacuarembo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboC" CornerRadius="15" BackgroundColor="#97d5e0" Source="TROMDAV.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTacuaremboC_Clicked">
                             </ImageButton>
 
-                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTacuaremboD" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4MuseoDelIndioyDelGauchoEscobarWashington_Tacuarembo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="1" x:Name="BtnTacuaremboD" CornerRadius="15" BackgroundColor="#97d5e0" Source="TROMDIDGEW.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTacuaremboD_Clicked">
                             </ImageButton>
 
@@ -40,7 +40,7 @@
                         
                         <Grid Margin="30,20" RowSpacing="20">
 
-                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboE" CornerRadius="15" BackgroundColor="#97d5e0" Source="DepN4PozoHondo_Tacuarembo.png"
+                            <ImageButton Grid.Row="0" Grid.Column="0" x:Name="BtnTacuaremboE" CornerRadius="15" BackgroundColor="#97d5e0" Source="TROPH.png"
                                          WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Clicked="BtnTacuaremboE_Clicked">
                             </ImageButton>
 
